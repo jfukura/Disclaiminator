@@ -1,0 +1,108 @@
+<section class="row">
+
+            <div class="col-md-3 sidebar">
+                <h1 class="title">
+                    Disclaiminator
+                </h1>
+                <h2 class="subtitle">
+                    Project Setup
+                </h2>
+                <p>
+                    Enter the details and click "Next" to start a new project.
+                </p>
+
+                <div class="callout">
+                    <h4 class="headline">
+                        Open an existing project
+                    </h4>
+
+                    <div class="fileUpload">
+                        <input type="file" class="inputfile" id="UploadJson"/>
+                        <label for="UploadJson" class="inputfile-label"><i class="fa fa-upload"></i>&nbsp;&nbsp;Choose a file (.json)</label>
+                    </div>
+                </div>
+
+            </div>
+            <form id="basic" class="col-md-9 js-form-basic">
+                <div class="control-group col-md-12 input-title-wrap">
+                    <input type="text" class="input mod-block mod-title js-infield js-input" data-label="Project Name*" id="inputProjectName" name="inputProjectName" required />
+                </div>
+                <div class="control-group col-md-12">
+                    <input type="text" class="input mod-block js-infield js-input" data-label="Project Owner*" id="inputProjectManager" name="inputProjectManager" required />
+                </div>
+                <div class="control-group col-md-12">
+                    <input type="text" class="input mod-block js-infield js-input" data-label="URL (if known)" id="url" name="url" />
+                </div>
+                <input type="hidden" class="js-input" id="createdDate" name="createdDate" value="" />
+                <input type="hidden" class="js-input" id="modifiedDate" name="modifiedDate" value="" />
+
+                <div class="control-group col-md-6">
+                    <input type="text" class="input mod-block js-infield js-input" data-label="Proworkflow Project Number" id="inputTracking" name="inputTracking" style="margin-top:5px;"/>
+                    <input type="text" class="input mod-block js-infield js-input" data-label="New Account Promo Code" id="inputPromo" name="inputPromo" title="Add a promo code for users opening new accounts" style="margin-top:5px;"/>
+                    <input type="text" class="input mod-block js-infield js-input" data-label="Fund Account Promo Code" id="inputPromoFund" name="inputPromoFund" title="Add a promo code for existing customers funding an account" style="margin-top:5px;"/>
+                </div>
+
+                <div class="control-group col-md-6">
+                    <input type="text" class="input mod-block js-infield js-input" data-label="Ad-Trax Number*" id="adTrax" name="adTrax" required />
+                    <input type="text" class="input datepicker mod-block js-infield js-input" data-label="Project Expiration*" id="expiryDate" name="expiryDate" required />
+
+                    <label class="control-label" for="selectPC">Program Code<span>*</span></label>
+                    <div class="select-wrap">
+                        <select class="input mod-select mod-block js-input" id="selectPC" name="selectPC" required>
+                            <option value="">Select Code...</option>
+                            <option value="AF" data-sid="AFFILIATES_DEFAULT">Affiliates Default</option>
+                            <option value="DS" data-sid="DISPLAY_DEFAULT">Display Default</option>
+                            <option value="LS" data-sid="LINKSHAREDEFAULT">LinkShare</option>
+                            <option value="PD" data-sid="PARTNERDEFAULT">Partner Default</option>
+                            <option value="RT" data-sid="RETIREMENTDEFAULT">Retirement Default</option>
+                            <option value="SC" data-sid="SEARCH_DEFAULT">Search Default</option>
+                            <option value="MD" data-sid="MARKETINGDEFAULT">Marketing Default</option>
+                            <option value="XD" data-sid="XSELLDEFAULT">Cross-sell Default</option>
+                        </select>
+                    </div>
+
+                    <label class="control-label" for="selectPC">Account Type<span>*</span></label>
+                    <div class="select-wrap">
+                        <select class="input mod-select mod-block js-input" id="account" name="account" required>
+                            <option value="">Select Code...</option>
+                            <optgroup label="General Investing">
+                                <option value="ind">Individual Account</option>
+                                <option value="jnt">Joint Account</option>
+                            </optgroup>
+                            <optgroup label="Retirement">
+                                <option value="trad">Traditional IRA</option>
+                                <option value="roth">Roth IRA</option>
+                                <option value="rollIRA">Rollover IRA</option>
+                            </optgroup>
+                            <optgroup label="For a Child">
+                                <option value="cust">Custodial Account</option>
+                                <option value="esa">Education Savings Account (ESA)</option>
+                            </optgroup>
+                        </select>
+                        <p class="helper" style="margin-left:12px;">The account you choose here will determine which type of default account will be selected on the "Open an Account" page.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+
+                </div>
+                <div class="control-group col-md-6">
+
+
+                </div>
+
+
+                <div class="col-md-12">
+                    <!-- <input id="bankMarketing" type="checkbox" name="bankMarketing" class="checkbox js-input" value="1"><label for="bankMarketing" class="checkbox-label">Bank Marketing Version of Not/Not/May</label> -->
+                    <div class="switch-wrap">
+                        <div class="switch-title">Not/not/may style:</div>
+                        <div class="switch-label">Standard</div>
+                        <div class="switch">
+                            <input class="cmn-toggle cmn-toggle-round js-input" type="checkbox" id="bankMarketing" name="bankMarketing">
+                            <label for="bankMarketing"></label>
+                        </div>
+                        <div class="switch-label mod-right">RNIP (Banking)</div>
+                    </div>
+                </div>
+            </form>
+        </section>

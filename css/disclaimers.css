@@ -1,0 +1,206 @@
+@font-face {
+  font-family: 'OptimistThin';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/optimist/Optimist_W_XLt.eot");
+  src: url("../fonts/optimist/Optimist_W_XLt.eot?#iefix") format("embedded-opentype"), url("../fonts/optimist/Optimist_W_XLt.woff") format("woff"), url("../fonts/optimist/Optimist_W_XLt.woff2") format("woff2"), url("../fonts/optimist/ptimist_W_XLt.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'OptimistThinItalic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/optimist/Optimist_W_XLtit.eot");
+  src: url("../fonts/optimist/Optimist_W_XLtit.eot?#iefix") format("embedded-opentype"), url("../fonts/optimist/Optimist_W_XLtit.woff") format("woff"), url("../fonts/optimist/Optimist_W_XLtit.woff2") format("woff2"), url("../fonts/optimist/ptimist_W_XLtit.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'OptimistLight';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/optimist/Optimist_W_Lt.eot");
+  src: url("../fonts/optimist/Optimist_W_Lt.eot?#iefix") format("embedded-opentype"), url("../fonts/optimist/Optimist_W_Lt.woff") format("woff"), url("../fonts/optimist/Optimist_W_Lt.woff2") format("woff2"), url("../fonts/optimist/ptimist_W_Lt.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'OptimistLightItalic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/optimist/Optimist_W_Ltit.eot");
+  src: url("../fonts/optimist/Optimist_W_Ltit.eot?#iefix") format("embedded-opentype"), url("../fonts/optimist/Optimist_W_Ltit.woff") format("woff"), url("../fonts/optimist/Optimist_W_Ltit.woff2") format("woff2"), url("../fonts/optimist/ptimist_W_Ltit.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'OptimistRegular';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/optimist/Optimist_W_Rg.eot");
+  src: url("../fonts/optimist/Optimist_W_Rg.eot?#iefix") format("embedded-opentype"), url("../fonts/optimist/Optimist_W_Rg.woff") format("woff"), url("../fonts/optimist/Optimist_W_Rg.woff2") format("woff2"), url("../fonts/optimist/ptimist_W_Rg.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'OptimistRegularItalic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/optimist/Optimist_W_It.eot");
+  src: url("../fonts/optimist/Optimist_W_It.eot?#iefix") format("embedded-opentype"), url("../fonts/optimist/Optimist_W_It.woff") format("woff"), url("../fonts/optimist/Optimist_W_It.woff2") format("woff2"), url("../fonts/optimist/ptimist_W_It.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'OptimistSemibold';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/optimist/Optimist_W_SBd.eot");
+  src: url("../fonts/optimist/Optimist_W_SBd.eot?#iefix") format("embedded-opentype"), url("../fonts/optimist/Optimist_W_SBd.woff") format("woff"), url("../fonts/optimist/Optimist_W_SBd.woff2") format("woff2"), url("../fonts/optimist/ptimist_W_SBd.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'OptimistSemiboldItalic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/optimist/Optimist_W_SBdit.eot");
+  src: url("../fonts/optimist/Optimist_W_SBdit.eot?#iefix") format("embedded-opentype"), url("../fonts/optimist/Optimist_W_SBdit.woff") format("woff"), url("../fonts/optimist/Optimist_W_SBdit.woff2") format("woff2"), url("../fonts/optimist/ptimist_W_SBdit.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'OptimistBold';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/optimist/Optimist_W_Bd.eot");
+  src: url("../fonts/optimist/Optimist_W_Bd.eot?#iefix") format("embedded-opentype"), url("../fonts/optimist/Optimist_W_Bd.woff") format("woff"), url("../fonts/optimist/Optimist_W_Bd.woff2") format("woff2"), url("../fonts/optimist/ptimist_W_Bd.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'OptimistBoldItalic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/optimist/Optimist_W_Bdit.eot");
+  src: url("../fonts/optimist/Optimist_W_Bdit.eot?#iefix") format("embedded-opentype"), url("../fonts/optimist/Optimist_W_Bdit.woff") format("woff"), url("../fonts/optimist/Optimist_W_Bdit.woff2") format("woff2"), url("../fonts/optimist/ptimist_W_Bdit.ttf") format("truetype");
+}
+.brokerCheck {
+  display: inline;
+  vertical-align: middle;
+  width: 40px;
+}
+
+/* We use a descendant selector so that updating the disclaimers is easier */
+.footer-link-target, .footnote a {
+  color: #246FDA;
+  text-decoration: none;
+}
+.footer-link-target:focus, .footnote a:focus {
+  text-decoration: underline;
+}
+.footnote sup {
+  font-weight: bold;
+}
+.footer-link-target:hover, .footnote a:hover {
+  border-bottom: 1px solid;
+}
+.footer-separated {
+  border-bottom: 1px solid #999;
+  padding-bottom: 20px;
+}
+.logo-link-target {
+  border: none !important;
+  display: block;
+  float: left;
+}
+.disclaimers ul {
+  margin: 0 0 1em 20px;
+}
+.disclaimers ul li {
+  list-style: disc outside;
+  margin: 0 0 0.05em 0;
+}
+#disclaimers p, .disclaimers p {
+  font-size: 10px;
+  line-height: inherit;
+  margin-bottom: 1em;
+}
+.disclaimers p em {
+  font-style: italic;
+}
+.disclaimers p strong {
+  font-weight: bold;
+}
+p.disclaimer-title {
+  font: italic normal 11px/1.4 "OptimistSemibold", sans-serif;
+  margin-bottom: 0.5em;
+}
+.disclaimers .grey-bar {
+  background-color: #c0c0c0;
+  clear: both;
+  height: 1px;
+  margin: 15px 0 15px 0;
+  width: 100%;
+}
+.disclaimers .custom p {
+  color: #333;
+}
+.disclaimers .standard p {
+  color: #666;
+}
+.ann {
+  float: left;
+  font-size: 70%;
+  font-weight: bold;
+  position: relative;
+  top: -0.7em;
+  vertical-align: baseline;
+}
+.brokerCheckElement {
+  border-bottom: 1px solid #ccc;
+  clear: both;
+  font: normal 16px/1 "OptimistSemibold", sans-serif !important;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  text-align: center !important;
+}
+.notnotmay.bank {
+  font: normal 1.125rem/1.2 "OptimistSemibold", sans-serif !important;
+}
+#bankMarketing + #CombinedCardBank p, #baseDisclaimer_1 p {
+  font-size: 12px !important;
+}
+em {
+  font-style: italic;
+}
+.nnm-boxy {
+  margin-bottom: 20px;
+}
+.nnm-boxy-intro {
+  font: normal 1.125rem/1 "OptimistSemiBold", sans-serif;
+  margin-bottom: 10px;
+}
+.nnm-boxy ul {
+  border: 1px solid;
+  border-collapse: collapse;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 !important;
+  padding: 0;
+  text-align: center;
+}
+.nnm-boxy ul li {
+  align-items: center;
+  border: 1px solid;
+  box-sizing: border-box;
+  display: flex;
+  font: normal 1.125rem/1.4 "OptimistSemiBold", sans-serif;
+  justify-content: center;
+  list-style-type: none !important;
+  margin: 0;
+  padding: 20px;
+  width: 33.33%;
+}
+.nnm-boxy ul li:last-child {
+  flex-grow: 2;
+}
+@media (max-width:768px) {
+  .nnm-boxy ul li {
+    padding: 10px 0;
+    width: 50%;
+  }
+  .nnm-boxy ul li:last-child {
+    flex-grow: 2;
+    padding: 10px 30px;
+  }
+}
+.btn.disabled {
+  pointer-events: none;
+}
+.openAccnt.disabled {
+  opacity: 0.5;
+}

@@ -1,0 +1,119 @@
+.drop {
+	&-bucket {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		height: 50vh;
+		overflow-y: scroll;
+
+		&.mod-target {
+			border: 2px dashed $color-white;
+			border-radius: 3px;
+			height: auto;
+			margin-top: -20px;
+			min-height: 300px;
+			overflow: visible;
+			padding-top: 20px;
+			transition: border-color 0.25s ease;
+
+			&.is-active {
+				border-color: $color-grayDk;
+			}
+
+			& .disc-pool-item {
+				background: $color-white;
+				border-radius: 3px;
+				box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+				padding-right: 10px;
+				position: relative;
+				margin-top: -5px;
+				margin-bottom: -5px;
+				transition: box-shadow 0.25s ease;
+
+				& p {
+					line-height: 2.5em;
+				}
+
+				&-remove {
+					background: $color-grayLt;
+					color: $color-charcoal;
+					font-size: 1.5em;
+					height: 1.5em;
+					line-height: 1.5em;
+					opacity: 0;
+					position: absolute;
+					right: 0;
+					text-align: center;
+					text-decoration: none;
+					top: 0;
+					@include transition (all 0.2s ease);
+					width: 1.5em;
+
+					&:hover {
+						background: $color-red;
+						color: $color-white;
+						opacity: 1 !important;
+					}
+				}
+
+				&:hover {
+					box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+					z-index: 200;
+
+					& .disc-pool-item-remove {
+						opacity: 0.5;
+					}
+				}
+			}
+		}
+
+		&.mod-prepend {
+			height: auto;
+			min-height: 0;
+			overflow: visible;
+			padding: 5px 10px;
+		}
+
+		&.mod-pool {
+			border: 1px solid $color-grayLt;
+
+			& li {
+				background: $color-grayLtr;
+				border-radius: 3px;
+				cursor: move;
+				transition: all 0.25s ease;
+
+				&:hover {
+					background: $color-ltBlueLt;
+					color: $color-white;
+				}
+			}
+		}
+	}
+}
+
+.disc-pool-item {
+	background-color: transparent;
+	border: 1px dashed transparent;
+	@include border-radius(2px);
+	color: $color-charcoalLt;
+	font-size: 0.875em;
+	margin: 5px;
+	padding: 5px;
+	position: relative;
+	@include transition(border 0.2s ease);
+
+	&.is-active {
+		background-color: $color-ltBlueLt;
+		color: $color-white;
+	}
+
+	&.added {
+		display: none;
+	}
+
+	&-title {
+		background: $color-grayLt;
+		padding: 5px;
+	}
+}

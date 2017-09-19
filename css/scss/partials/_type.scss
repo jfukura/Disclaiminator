@@ -1,0 +1,35 @@
+b{
+  font-family: $font-pn--bold;
+}
+
+.title{
+  font: normal 2rem/1 $font-pn--lite;
+}
+
+.subtitle{
+  color: $color-ltBlue;
+  font: normal 1.25rem/1.5 $font-pn--semibold;
+  margin-bottom: 20px;
+}
+
+.helper{
+  color: $color-charcoalLtr;
+  font-size: 0.75em;
+}
+
+.headline{
+  font: normal 1rem/1.5 $font-pn--reg;
+  margin-bottom: 10px;
+}
+
+.footnote {
+    font-size: 60%;
+    line-height: 0;
+    position: relative;
+    top: -0.5em;
+    vertical-align: baseline;
+
+    &.mod-small{
+      top: -1.2em;
+    }
+}

@@ -1,0 +1,106 @@
+.masthead {
+  background: $color-white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  display: block;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+
+  &-cell {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+    &.mod-right {
+      justify-content: flex-end;
+    }
+  }
+  &-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  & .btn-save {
+    margin-right: 10px;
+  }
+}
+.brand-target {
+  align-items: center;
+  display: flex;
+  width: 100%;
+
+  &-logo {
+    display: block;
+    height: 60px;
+    max-height: 61px;
+    max-width: 195px;
+    padding: 10px 0;
+  }
+}
+.nav {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  list-style-type: none;
+  margin-right: 20px;
+  position: relative;
+  width: 100%;
+
+  &-wrap {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    text-align: center;
+
+    & .btn {
+      white-space: nowrap;
+    }
+  }
+  &-item {
+    display: block;
+    float: left;
+    font: normal 0.75rem/1 $font-pn--reg;
+    width: 33.33%;
+
+    &-target {
+      border-bottom: 2px solid $color-gray;
+      color: $color-gray;
+      cursor: default;
+      display: block;
+      padding: 10px 10px;
+
+      @include transition(all .2s ease);
+
+      &.is-past {
+        color: $color-charcoalLt;
+        cursor: pointer;
+
+        &:hover {
+          background: $color-grayLtr;
+        }
+      }
+      &.is-current {
+        color: $color-green;
+      }
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  &-line {
+    background: $color-green;
+    bottom: 0;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transition: width 0.25s ease;
+    width: 33.33%;
+  }
+}

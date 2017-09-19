@@ -1,0 +1,9 @@
+<section class="row">
+    <div id="login-form" class="col-sm-4 col-sm-push-4">
+        <h1 class="headline"><b>Login with your ProWorkflow credentials</b></h1>
+        <input id="js-auth-name" type="text" class="input mod-block js-infield" data-label="Username">
+        <input id="js-auth-pass" type="password" class="input mod-block js-infield" data-label="Password">
+        <button class="btn btn-action" onclick="controller.authenticate.run()">Login</button> OR
+        <button class="js-noPWF btn btn-secondary mod-ghost" onclick="controller.authenticate.nonPWF.setup();">Login without ProWorkflow</button>
+    </div>
+</section>

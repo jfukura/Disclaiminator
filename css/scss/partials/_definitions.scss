@@ -1,0 +1,71 @@
+$font-pn--lite: 'OptimistLight', sans-serif;
+$font-pn--thin: 'OptimistThin', sans-serif;
+$font-pn--reg: 'OptimistRegular', sans-serif;
+$font-pn--semibold: 'OptimistSemibold', sans-serif;
+$font-pn--bold: 'OptimistBold', sans-serif;
+$font-pn--c-reg: 'ProximaNovaCondensedRegular', sans-serif;
+$font-pn--c-semibold: 'ProximaNovaCondensedSemibold', sans-serif;
+$font-pn--c-bold: 'ProximaNovaCondensedBold', sans-serif;
+$color-blueDk: #003362;
+$color-blue: #004977;
+$color-blueLt: #336D92;
+$color-red: #D03027;
+$color-grayDk: #CFCCCF;
+$color-gray: #CECCD0;
+$color-grayLt: #E8E4E7;
+$color-grayLtr: #f3f3f3;
+$color-grayLtst: #FAF8F9;
+$color-charcoalDk: #011728;
+$color-charcoal: #273B49;
+$color-charcoalLt: #687680;
+$color-charcoalLtr: #AEB5BB;
+$color-charcoalLtst: #C9CED2;
+$color-ltBlueDk: #0D74AF;
+$color-ltBlue: #018BBB;
+$color-ltBlueLt: #019ED5;
+$color-ltBlueLtr: #97D6ED;
+$color-ltBlueLtst: #E2F4FE;
+$color-greenDk: #128020;
+$color-green: #0EA218;
+$color-greenLt: #0DAD0C;
+$color-greenLtr: #10BD1B;
+$color-greenLtst: #3FC848;
+$color-yellowDk: #F8CC01;
+$color-yellow: #FFDC24;
+$color-yellowLt: #FFE34F;
+$color-white: #FFFFFF;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin transition($effects) {
+  -webkit-transition: $effects;
+  -moz-transition: $effects;
+  -o-transition: $effects;
+  transition: $effects;
+}
+@mixin transform($vals) {
+  -webkit-transform: $vals;
+  -moz-transform: $vals;
+  -o-transform: $vals;
+  transform: $vals;
+}
+//rgba(63, 200, 72, 0)
+@mixin grad-vert-border($start, $finish, $sp, $fp) {
+  // -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, from($start), to($finish)) 1 100%;
+  -webkit-border-image: -webkit-linear-gradient(bottom, $start $sp, $finish $fp);
+  -moz-border-image: -moz-linear-gradient(bottom, $start $sp, $finish $fp);
+  -o-border-image: -o-linear-gradient(bottom, $start $sp, $finish $fp);
+  border-image: linear-gradient(to top, $start $sp, $finish $fp);
+  border-image-slice: 1;
+}
+@mixin grad-horz-border($start, $finish) {
+  -webkit-border-image: -webkit-linear-gradient(left, $start 80%, $finish 100%);
+  -moz-border-image: -moz-linear-gradient(left, $start 80%, $finish 100%);
+  -o-border-image: -moz-linear-gradient(left, $start 80%, $finish 100%);
+  border-image: linear-gradient(to right, $start 80%, $finish 100%);
+  border-image-slice: 1;
+}

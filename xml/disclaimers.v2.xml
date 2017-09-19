@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+<disclaimer name="taxesAndBonus" title="Taxes &amp; Your Bonus" accountType="" qualification="" bonusType="cash" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong>Any applicable taxes related to Capital One Investing Offers are the responsibility of the account holder. To the extent required by law, Capital One will report the total value of the bonus with respect to a non-IRA investment account to the IRS on Form 1099-INT for the applicable tax year in which it is paid. Account holders should consult a tax or legal advisor to determine the appropriate tax treatment of this bonus for tax purposes.</strong></p>
+    <p><strong>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account. The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</strong></p>
+  ]]>
+</disclaimer>
+
+<!-- Promotions - Disclaimers -->
+<disclaimer name="fsTieredBonus" title="Full Service 5 Tier Bonus Offer" accountType="" qualification="open" bonusType="cash" tiered="yes">
+  <![CDATA[
+  <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p>You have two steps to qualify for your bonus. First, meet with your financial advisor to understand the investing products available. Second, open an account and initiate a new deposit, transfer, and/or rollover (“qualifying transaction”) by <span class='openDate'>#_date:openDate_#</span>. This offer is not valid for clients that have an existing Capital One Investing financial advisor relationship. Transfers from an existing Capital One Investing account, or from a Capital One Bank IRA, do not qualify. Your bonus will be based on the net qualifying assets in the account <span class='calendarDays'>#_decimal:calendarDays_#</span> days after the initial qualifying transaction. Net qualifying assets are the total amounts of your deposits, transfers and rollovers, minus any withdrawals. Net qualifying assets are calculated at the account level. (Note: the qualifying asset amount isn’t affected by any change in value for your securities after they are deposited.)  Valid for individual, joint, and custodial accounts and traditional and Roth IRAs. Promotion is not valid for 529 Plans, Trusts, Education Savings Accounts (“ESAs”), Government, or other Business/Corporate accounts. Limit one offer per account (multiple accounts may qualify). Your net qualifying assets funded during the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period in any one account must be at least $<span class='depositAmount1'>#_decimal:depositAmount1_#</span> to be eligible for a $<span class='bonusAmount1'>#_decimal:bonusAmount1_#</span> bonus, $<span class='depositAmount2'>#_decimal:depositAmount2_#</span> for a $<span class='bonusAmount2'>#_decimal:bonusAmount2_#</span> bonus, $<span class='depositAmount3'>#_decimal:depositAmount3_#</span> for a $<span class='bonusAmount3'>#_decimal:bonusAmount3_#</span> bonus, $<span class='depositAmount4'>#_decimal:depositAmount4_#</span> for a $<span class='bonusAmount4'>#_decimal:bonusAmount4_#</span> bonus, or $<span class='depositAmount5'>#_decimal:depositAmount5_#</span> for a $<span class='bonusAmount5'>#_decimal:bonusAmount5_#</span> bonus.</p>
+
+    <p class='disclaimer-title'><strong>WHEN YOU WILL RECEIVE YOUR BONUS</strong></p>
+    <p>Bonus will be awarded to your Capital One Investing brokerage account within <span class='bonusTime'>#_string:bonusTime_#</span> following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period. Bonus may be refused if it is determined that you violated Capital One Investing’s <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</p>
+
+    <p class='disclaimer-title'><strong>HOW TO ACCESS YOUR BONUS</strong></p>
+    <p>For Capital One Managed Portfolio accounts, your bonus will be deposited into the qualifying account and reinvested into your portfolio. For other eligible accounts, if you have a bank account linked to your Capital One Investing account, your bonus will be automatically deposited into the linked bank account. If there is not a linked bank account, your bonus will be deposited as cash into the qualifying brokerage account.</p>
+
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong>Any taxes related to Capital One Investing offers are your responsibility. The bonus is a cash award and will not be reported to the IRS as an IRA contribution. You should consult your tax or legal advisor about the guidelines on IRS contribution limits for IRAs and the appropriate tax treatment for this award.</strong></p>
+    <p><strong>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</strong></p>
+  ]]>
+</disclaimer>
+<disclaimer name="noniraSCDOP" title="Non-IRA - Single Cash Deposit Only Promotion" accountType="nonira" qualification="fund" bonusType="cash" tiered="no">
+  <![CDATA[
+  <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, open a new online Individual, Joint, or Custodial account using promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. You must have a U.S. Tax I.D. (Social Security number) to open an account with Capital One Investing, LLC. Second, deposit $<span class='depositAmount'>#_decimal:depositAmount_#</span> or more in cash by <span class='depositDate'>#_date:depositDate_#</span>. Promotion is non-transferable, not valid for IRAs and ESAs, and not valid with any other promotion. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will deposit a $<span class='bonusAmount'>#_decimal:bonusAmount_#</span> bonus within <span class='bonusTime'>#_string:bonusTime_#</span> after you complete your deposit. Your bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Cash deposited into the account to qualify for the promotion must remain in the account (minus any losses related to trading or market volatility) for at least <span class='leastMonths'>#_decimal:leastMonths_#</span> months after <span class='depositDate'>#_date:depositDate_#</span>, or your bonus may be reclaimed. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="noniraTCSPWRPC" title="Non-IRA - Tiered Cash and Securities Promotion" accountType="nonira" qualification="fund" bonusType="cash" tiered="yes">
+  <![CDATA[
+  <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, open a new online Individual, Joint, or Custodial account using promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. You must have a U.S. Tax I.D. (Social Security number) to open an account with Capital One Investing, LLC. Second, you must make a net deposit and/or asset transfer that posts to your new account within <span class='calendarDays'>#_decimal:calendarDays_#</span> days of opening it. Your net qualifying assets posted during that <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period must be at least $<span class='depositAmount1'>#_decimal:depositAmount1_#</span> to be eligible for a $<span class='bonusAmount1'>#_decimal:bonusAmount1_#</span> bonus, $<span class='depositAmount2'>#_decimal:depositAmount2_#</span> for a $<span class='bonusAmount2'>#_decimal:bonusAmount2_#</span> bonus, $<span class='depositAmount3'>#_decimal:depositAmount3_#</span> for a $<span class='bonusAmount3'>#_decimal:bonusAmount3_#</span> bonus, $<span class='depositAmount4'>#_decimal:depositAmount4_#</span> for a $<span class='bonusAmount4'>#_decimal:bonusAmount4_#</span> bonus, or $<span class='depositAmount5'>#_decimal:depositAmount5_#</span> for a $<span class='bonusAmount5'>#_decimal:bonusAmount5_#</span> bonus. If your net qualifying assets are within $100 of a higher bonus level, you will be credited you at that level so you receive a larger bonus. Your net qualifying assets are the total amounts of your deposits and transfers, minus any withdrawals. (Note: the qualifying asset amount isn't affected by any change in value for your securities after they were deposited.) Transfers from an existing Capital One Investing account do not qualify. Offer is non-transferable and not valid for IRAs and ESAs. Net qualifying assets only count toward one offer. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will add the bonus to your account within <span class='bonusTime'>#_string:bonusTime_#</span> following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period. The bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Qualifying assets must remain in the account (minus any losses related to trading or market volatility) for at least <span class='leastMonths'>#_decimal:leastMonths_#</span> months following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period or your bonus may be reclaimed. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="costcoEMnonIRAbtp" title="Costco Executive Membership Non-IRA Bonus for Trade Promotion" accountType="nonira" qualification="trade" bonusType="cash" tiered="no">
+  <![CDATA[
+  <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus, exclusively for Costco Executive Members. First, open a new online Individual, Joint or Custodial account, using a valid Executive membership number, by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Second, execute a trade by <span class='tradeDate'>#_date:tradeDate_#</span>. Promotion is non-transferable, not valid for IRAs and ESAs, and not valid with any other promotion. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will deposit a $<span class='depositAmount'>#_decimal:depositAmount_#</span> bonus within <span class='bonusBusinessDays'>#_decimal:bonusBusinessDays_#</span> business days after your first trade occurs. Your bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/costco/investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="costcoEMJOIRAnonIRAbtp" title="Costco Executive Membership Joint Offer - IRA and Non-IRA Bonus for Trade Promotion" accountType="all" qualification="trade" bonusType="cash" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p>You have two steps to qualify for your cash bonus, exclusively for Costco Executive Members. First, open a new online Individual Retirement Account (IRA) or Individual, Joint or Custodial account, using a valid Executive membership number, by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Second, execute a trade by <span class='tradeDate'>#_date:tradeDate_#</span>. Promotion is non-transferable, not valid for ESAs, and not valid with any other promotion. Limit one bonus per customer or custodial beneficiary.</p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will deposit a $<span class='bonusAmount'>#_decimal:bonusAmount_#</span> bonus within <span class='bonusBusinessDays'>#_decimal:bonusBusinessDays_#</span> business days after your first trade occurs. Your bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/costco/investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><b><em>Any taxes related to Capital One Investing offers are your responsibility. The bonus is a cash award and will not be reported to the IRS as an IRA contribution. You should consult your tax or legal advisor about the guidelines on IRS contribution limits for IRAs and the appropriate tax treatment for this award.</em></b></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+
+  ]]>
+</disclaimer>
+<disclaimer name="cpnonIRAbftp" title="Cash Promotion – Non-IRA Bonus for First Trade Promotion" accountType="nonira" qualification="trade" bonusType="cash" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, open a new online Individual, Joint or Custodial account using promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Second, execute <span class='numberofTrades'>#_decimal:numberofTrades_#</span> “buy” trade of any kind by <span class='tradeDate'>#_date:tradeDate_#</span>. Promotion is non-transferable, not valid for IRAs and ESAs, and not valid with any other promotion. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will deposit the $<span class='bonusAmount'>#_decimal:bonusAmount_#</span> bonus 5–7 business days after you execute <span class='numberofTrades'>#_decimal:numberofTrades_#</span>"buy" trade(s) of any kind. Your bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="cpnonIRAbftp2016" title="New 2016 Joint $50 Bonus for First Trade Promotion" accountType="nonira" qualification="trade" bonusType="cash" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>There are two steps to qualify for your $50 cash bonus. First, open a new online Individual Retirement Account (IRA), individual or joint account on capitaloneinvesting.com using promo code  <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date of <span class='openDate'>#_date:openDate_#</span>. (The promotion is not valid for Capital One Advisors Managed Portfolio accounts or accounts opened through a financial advisor.) You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC account. Second, after you open an account, you must execute <span class='numberofTrades'>#_decimal:numberofTrades_#</span>"buy" trade within 30 days. The promotion is non- transferable, not valid for custodial accounts or Education Savings Accounts (ESAs) and not valid with any other promotion. Limit one bonus per customer.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will deposit the $<span class='bonusAmount'>#_decimal:bonusAmount_#</span> bonus 5–7 business days following the 30-day period if you executed <span class='numberofTrades'>#_decimal:numberofTrades_#</span>"buy" trade(s) of any kind during that 30-day period. Your bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong><em>Any applicable taxes related to Capital One Investing Offers are the responsibility of the account holder.  To the extent required by law, Capital One will report the total value of the bonus with respect to a non-IRA investment account to the IRS on Form 1099-INT for the applicable tax year in which it is paid.  Account holders should consult a tax or legal advisor to determine the appropriate tax treatment of this bonus for tax purposes. </em></strong></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+  ]]>
+</disclaimer>
+<disclaimer name="cpnonIRAbotp" title="Cash Promotion – Non-IRA Bonus for Other Trade Promotion" accountType="nonira" qualification="trade" bonusType="cash" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, open a new online Individual, Joint or Custodial account using promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Second, execute <span class='numberofTrades'>#_decimal:numberofTrades_#</span> <span class='typesofTrades'>#_string:typesofTrades_#</span> trade(s) by  <span class='tradeDate'>#_date:tradeDate_#</span>. Promotion is non-transferable, not valid for IRAs and ESAs, and not valid with any other promotion. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will deposit the $<span class='bonusAmount'>#_decimal:bonusAmount_#</span> bonus 4–6 weeks after you execute <span class='numberofTrades'>#_decimal:numberofTrades_#</span> <span class='typesofTrades'>#_string:typesofTrades_#</span> trade(s). Your bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="cpCCBtpgos" title="Cash Promotion – Custodial Cash Bonus for Trade Promotion Gift of Stock" accountType="custodial" qualification="trade" bonusType="cash" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, open a new online Custodial account on capitaloneinvesting.com using promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. (The promotion is not valid for Capital One Advisors Managed Portfolio accounts or accounts opened through a financial advisor.) You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Second, execute <span class='numberofTrades'>#_decimal:numberofTrades_#</span>"buy" trade(s) of any kind within <span class='tradeBusinessDays'>#_decimal:tradeBusinessDays_#</span> days of opening your account. Promotion is non-transferable, not valid for Individual, Joint, IRA, and ESA accounts, and not valid with any other promotion. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will deposit the $<span class='bonusAmount'>#_decimal:bonusAmount_#</span> bonus 5-7 business days following the <span class='tradeBusinessDays'>#_decimal:tradeBusinessDays_#</span>-day period if you executed <span class='numberofTrades'>#_decimal:numberofTrades_#</span>"buy" trade(s) of any kind during that <span class='tradeBusinessDays'>#_decimal:tradeBusinessDays_#</span>-day period. Your $<span class='bonusAmount'>#_decimal:bonusAmount_#</span> bonus is not available for withdrawal for <span class='withdrawlBusinessDays'>#_decimal:withdrawlBusinessDays_#</span> days after it is awarded to your account. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="costcoCCBTPGoS" title="Costco Cash Promotion–Custodial Cash Bonus for Trade Promotion  Gift of Stock" accountType="custodial" qualification="fund" bonusType="cash" tiered="yes">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, open a new online Custodial account using promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. Your Costco membership number must be entered and verified during this account set-up process for you to qualify. You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Second, execute <span class='numberofTrades'>#_decimal:numberofTrades_#</span> online trade(s) by <span class='tradeDate'>#_date:tradeDate_#</span>. Promotion is not valid with IRAs, ESAs, Individual and Joint accounts. It is not valid with any other promotion and is non-transferable. Limit one bonus per custodial beneficiary.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>The $<span class='bonusAmount'>#_decimal:bonusAmount_#</span> bonus will post in your newly opened account within <span class='businessDays'>#_decimal:businessDays_#</span> days of your first executed buy order. The $<span class='bonusAmount'>#_decimal:bonusAmount_#</span> is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="GoStcp" title="Gift of Stock Trade Credit Promo" accountType="nonira" qualification="new" bonusType="trade" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE TRADE CREDIT WORKS</strong></p>
+    <p><em>To qualify for your <span class='numberofTrades'>#_decimal:numberofTrades_#</span> online trade credit bonus, open a new online account (of a type you don’t already hold—individual, joint, custodial or IRA) at capitaloneinvesting.com, using promo code <span class='promoCode'>#_string:promoCode_#</span>, by <span class='openDate'>#_date:openDate_#</span>. (The promotion is not valid for Capital One Advisors Managed Portfolio accounts or accounts opened through a financial advisor.) You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC account. Trade credits will only be posted to accounts approved for trading at Capital One Investing's sole discretion. The promotion is non-transferable, not valid with any other promotion and expires on the date specified above. Limit one bonus per customer or custodial beneficiary.
+
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR TRADE CREDIT</strong></p>
+    <p><em>Capital One Investing will post <span class='numberofTrades'>#_decimal:numberofTrades_#</span> online trade credits to your account once it’s opened. Your trade credits are valid through <span class='tradeDate'>#_date:tradeDate_#</span>. Online trade credits do not apply toward PortfolioBuilder, ShareBuilder® investment plan, mutual funds or per-contract option charges. Additional services and charges beyond base commissions, such as the Low-priced Securities Surcharge and Express Funding, are not covered—see pricing and rates. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's
+<a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="jnonIRAiracptorpc" title="Joint Offer - non-IRA and IRA Cash Promotion–Tiered Promotion" accountType="nonira" qualification="fund" bonusType="cash" tiered="yes">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, open a new online Individual Retirement Account (IRA) or Individual, Joint or Custodial account on capitaloneinvesting.com using promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. (The promotion is not valid for Capital One Advisors Managed Portfolio accounts or accounts opened through a financial advisor.) You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Second, make a net deposit, transfer, and/or rollover that posts to your new account within <span class='calendarDays'>#_decimal:calendarDays_#</span> days of opening your account. Your net qualifying assets posted during that <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period must be at least $<span class='depositAmount1'>#_decimal:depositAmount1_#</span> to be eligible for a $<span class='bonusAmount1'>#_decimal:bonusAmount1_#</span> bonus, $<span class='depositAmount2'>#_decimal:depositAmount2_#</span> for a $<span class='bonusAmount2'>#_decimal:bonusAmount2_#</span> bonus, $<span class='depositAmount3'>#_decimal:depositAmount3_#</span> for a $<span class='bonusAmount3'>#_decimal:bonusAmount3_#</span> bonus, $<span class='depositAmount4'>#_decimal:depositAmount4_#</span> for a $<span class='bonusAmount4'>#_decimal:bonusAmount4_#</span> bonus, or $<span class='depositAmount5'>#_decimal:depositAmount5_#</span> for a $<span class='bonusAmount5'>#_decimal:bonusAmount5_#</span> bonus. If your net qualifying assets are within $100 of a higher bonus level, you will be credited at that level so you receive a larger bonus. Your net qualifying assets are the total amounts of your deposits and transfers, minus any withdrawals. (Note: the qualifying asset amount isn't affected by any change in value for your securities after they were deposited.) Transfers from an existing online Capital One Investing account, or from a Capital One 360® IRA to an online Capital One Investing IRA, do not qualify. Promotion is non-transferable, not valid for ESAs, and not valid with any other promotion. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will add the bonus to your account within <span class='bonusTime'>#_string:bonusTime_#</span> following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period. The bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Qualifying assets must remain in the account (minus any losses related to trading or market volatility) for at least <span class='leastMonths'>#_decimal:leastMonths_#</span> months following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period or your bonus may be reclaimed. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong><em>Any applicable taxes related to Capital One Investing Offers are the responsibility of the account holder.  To the extent required by law, Capital One will report the total value of the bonus with respect to a non-IRA investment account to the IRS on Form 1099-INT for the applicable tax year in which it is paid.  Account holders should consult a tax or legal advisor to determine the appropriate tax treatment of this bonus for tax purposes. </em></strong></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+  ]]>
+</disclaimer>
+<disclaimer name="noniraTCSPWRPCFC" title="Joint Offer - non-IRA and IRA Cash Promotion–Tiered Offer with FREE CREDITS" accountType="nonira" qualification="fund" bonusType="cash" tiered="yes">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, open a new online Individual Retirement Account (IRA), Individual, Joint, or Custodial account using promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. You must have a U.S. Tax I.D. (Social Security number) to open an account with Capital One Investing, LLC, account. Second, you must make a net deposit and/or asset transfer that posts to your new account within <span class='calendarDays'>#_decimal:calendarDays_#</span> days of opening it. Your net qualifying assets posted during that <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period must be at least $<span class='depositAmount1'>#_decimal:depositAmount1_#</span> to be eligible for a $<span class='bonusAmount1'>#_decimal:bonusAmount1_#</span> bonus, $<span class='depositAmount2'>#_decimal:depositAmount2_#</span> for a $<span class='bonusAmount2'>#_decimal:bonusAmount2_#</span> bonus, $<span class='depositAmount3'>#_decimal:depositAmount3_#</span> for a $<span class='bonusAmount3'>#_decimal:bonusAmount3_#</span> bonus, $<span class='depositAmount4'>#_decimal:depositAmount4_#</span> for a $<span class='bonusAmount4'>#_decimal:bonusAmount4_#</span> bonus, or $<span class='depositAmount5'>#_decimal:depositAmount5_#</span> for a $<span class='bonusAmount5'>#_decimal:bonusAmount5_#</span> bonus. If your net qualifying assets are within $100 of a higher bonus level, you will be credited at that level so you receive a larger bonus. Your net qualifying assets are the total amounts of your deposits and transfers, minus any withdrawals. (Note: the qualifying asset amount isn't affected by any change in value for your securities after they were deposited.) Transfers from an existing online Capital One Investing account, or from a Capital One 360® IRA to an online Capital One Investing IRA, do not qualify. Promotion is non-transferable, not valid for ESAs, and not valid with any other promotion. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will add the bonus to your account within <span class='bonusTime'>#_string:bonusTime_#</span> following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period. The bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Qualifying assets must remain in the account (minus any losses related to trading or market volatility) for at least <span class='leastMonths'>#_decimal:leastMonths_#</span> months following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period or your bonus may be reclaimed. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+    <p class='disclaimer-title'><strong>TAXES &amp; YOUR BONUS</strong></p>
+    <p><em><strong>Any taxes related to Capital One Investing offers are your responsibility. The bonus is a cash award and will not be reported to the IRS as an IRA contribution. You should consult your tax or legal advisor about the guidelines on IRS contribution limits for IRAs and the appropriate tax treatment for this award.</strong></em></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+    <p><em>You will receive <span class='numberofTrades'>#_decimal:numberofTrades_#</span> online trade credit(s) in your new Individual Retirement Account (IRA), Individual, Joint, or Custodial account within <span class='bonusBusinessDays'>#_decimal:bonusBusinessDays_#</span> business day(s) after opening and entering promo code <span class='promoCode'>#_string:promoCode_#</span>. The promo code <span class='promoCode'>#_string:promoCode_#</span> must be entered by <span class='openDate'>#_date:openDate_#</span> and the online trade credit(s) will expire on <span class='tradeDate'>#_date:tradeDate_#</span>. Trade credit(s) will be posted to eligible accounts approved for trading at Capital One Investing's sole discretion. No minimum funding is required. Online trade credits do not apply toward PortfolioBuilder, ShareBuilder<sup>&reg;</sup>&nbsp;investment plan, mutual funds, or per-contract option charges. Additional services and charges beyond base commissions, such as the Low-priced Securities Surcharge and Express Funding, are not covered. See <a href="https://www.capitaloneinvesting.com/main/pricing-trading.aspx" title="Pricing and Rates">pricing and rates</a> for details.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="cjnonIRAiracptorpc" title="Costco Joint Offer - non-IRA and IRA Cash Promotion – Tiered Offer" accountType="nonira" qualification="fund" bonusType="cash" tiered="yes">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus, exclusively for Costco members. First, open a new online Individual Retirement Account (IRA) or Individual, Joint or Custodial account using promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. Your Costco membership number must be entered and verified during the Capital One Investing account set-up process to qualify. You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Second, make a net deposit, transfer, and/or rollover that posts to your new account within <span class='calendarDays'>#_decimal:calendarDays_#</span> days of opening your account. Your net qualifying assets posted during that <span class='bonusBusinessDays'>#_decimal:bonusBusinessDays_#</span>-day period must be at least $<span class='depositAmount1'>#_decimal:depositAmount1_#</span> to be eligible for a $<span class='bonusAmount1'>#_decimal:bonusAmount1_#</span> bonus, $<span class='depositAmount2'>#_decimal:depositAmount2_#</span> for a $<span class='bonusAmount2'>#_decimal:bonusAmount2_#</span> bonus, $<span class='depositAmount3'>#_decimal:depositAmount3_#</span> for a $<span class='bonusAmount3'>#_decimal:bonusAmount3_#</span> bonus, $<span class='depositAmount4'>#_decimal:depositAmount4_#</span> for a $<span class='bonusAmount4'>#_decimal:bonusAmount4_#</span> bonus, or $<span class='depositAmount5'>#_decimal:depositAmount5_#</span> for a $<span class='bonusAmount5'>#_decimal:bonusAmount5_#</span> bonus. If your net qualifying assets are within $100 of a higher bonus level, you will be credited at that level so you receive a larger bonus. Your net qualifying assets are the total amounts of your deposits and transfers, minus any withdrawals. (Note: the qualifying asset amount isn't affected by any change in value for your securities after they were deposited.) Transfers from an existing online Capital One Investing account, or from a Capital One 360&reg; IRA to an online Capital One Investing IRA, do not qualify. Promotion is non-transferable, not valid for ESAs, and not valid with any other promotion. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will add the bonus to your account within <span class='bonusTime'>#_string:bonusTime_#</span> following the <span class='bonusBusinessDays'>#_decimal:bonusBusinessDays_#</span>-day period. The bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Qualifying assets must remain in the account (minus any losses related to trading or market volatility) for at least <span class='leastMonths'>#_decimal:leastMonths_#</span> months following the <span class='bonusBusinessDays'>#_decimal:bonusBusinessDays_#</span>-day period or your bonus may be reclaimed. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/costco/investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong><em>Any applicable taxes related to Capital One Investing Offers are the responsibility of the account holder.  To the extent required by law, Capital One will report the total value of the bonus with respect to a non-IRA investment account to the IRS on Form 1099-INT for the applicable tax year in which it is paid.  Account holders should consult a tax or legal advisor to determine the appropriate tax treatment of this bonus for tax purposes. </em></strong></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+  ]]>
+</disclaimer>
+<disclaimer name="jnonIRAiracptoneaagrp" title="Joint Offer - non-IRA and IRA Cash Promotion– Tiered Offer for New &amp; Existing Accounts Asset Gathering" accountType="nonira" qualification="fund" bonusType="cash" tiered="yes">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, enter promo code <span class='promoCode'>#_string:promoCode_#</span> for new online accounts, or <span class='promoCodeExisting'>#_string:promoCodeExisting_#</span> for existing online accounts, by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. Second, deposit, transfer or roll over assets to that account. Assets must post to that account within <span class='calendarDays'>#_decimal:calendarDays_#</span> days of entering the code. Your net qualifying assets posted during that <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period must be at least $<span class='depositAmount1'>#_decimal:depositAmount1_#</span> to be eligible for a $<span class='bonusAmount1'>#_decimal:bonusAmount1_#</span> bonus; $<span class='depositAmount2'>#_decimal:depositAmount2_#</span> for a $<span class='bonusAmount2'>#_decimal:bonusAmount2_#</span> bonus; $<span class='depositAmount3'>#_decimal:depositAmount3_#</span> for a $<span class='bonusAmount3'>#_decimal:bonusAmount3_#</span> bonus; or $<span class='depositAmount4'>#_decimal:depositAmount4_#</span> for a $<span class='bonusAmount4'>#_decimal:bonusAmount4_#</span> bonus. If your net qualifying assets are within $100 of a higher bonus level, you will be credited at that level so you receive a larger bonus. Your net qualifying assets are the total amounts of your deposits, transfers and rollovers, minus any withdrawals. (Note: the qualifying asset amount isn't affected by any change in value for your securities after they were deposited.) Transfers from an existing online Capital One Investing, LLC, account, or from a Capital One 360® IRA to an online Capital One Investing IRA, do not qualify. Valid for IRAs and Individual, Joint or Custodial accounts only. Promotion is non-transferable and not valid for ESAs. Net qualifying assets only count towards one offer. If you previously qualified for a similar offer in any of your Capital One Investing accounts, you are not eligible to enroll in this offer for <span class='leastMonths'>#_decimal:leastMonths_#</span> months after the date you enrolled in the previous offer.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Bonus will be awarded to your account within <span class='bonusTime'>#_string:bonusTime_#</span> following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period. Bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded. Qualifying assets must remain in the account (minus any losses related to trading or market volatility) for at least <span class='leastMonths2'>#_decimal:leastMonths2_#</span> months following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period or your bonus may be reclaimed. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong><em>Any applicable taxes related to Capital One Investing Offers are the responsibility of the account holder.  To the extent required by law, Capital One will report the total value of the bonus with respect to a non-IRA investment account to the IRS on Form 1099-INT for the applicable tax year in which it is paid.  Account holders should consult a tax or legal advisor to determine the appropriate tax treatment of this bonus for tax purposes. </em></strong></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+  ]]>
+</disclaimer>
+<disclaimer name="jnonIRAiracptoneaagrp" title="Joint Offer - non-IRA and IRA Cash Promotion– Tiered Offer for New &amp; Existing Accounts Asset Gathering" accountType="nonira" qualification="fund" bonusType="cash" tiered="yes">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your bonus. First, meet with your financial advisor to understand the options available. Second, subject to suitability requirements, initiate a new deposit, transfer, and/or rollover (“qualifying transaction”) by <span class='openDate'>#_date:openDate_#</span>. Your net qualifying assets are the total amounts of your deposits, transfers and rollovers, minus any withdrawals, that are funded within sixty (60) days of the qualifying transaction. Net qualifying assets are calculated at the account level. (Note: the qualifying asset amount isn’t affected by any change in value for your securities after they were deposited.) Transfers from an existing Capital One Investing account, or from a CAPITAL ONE BANK IRA TO CAPITAL ONE INVESTING IRA, DO NOT QUALIFY. VALID FOR INDIVIDUAL, JOINT, AND CUSTODIAL ACCOUNTS AND TRADITIONAL AND Roth IRAs. Valid only for qualifying transactions in your Capital One Investing brokerage account. Promotion is non-transferable and not valid for 529 Plans, Trusts, Education Savings Accounts (“ESAs”), Government, or other Business/Corporate accounts. Limit one offer per account (multiple accounts may qualify) and up to $<span class='depositAmount'>#_decimal:depositAmount_#</span> per client or client beneficiary. Your net qualifying assets funded during the 60-day period in any one account must be at least $<span class='depositAmount1'>#_decimal:depositAmount1_#</span> to be eligible for a $<span class='bonusAmount1'>#_decimal:bonusAmount1_#</span> bonus; $<span class='depositAmount2'>#_decimal:depositAmount2_#</span> for a $<span class='bonusAmount2'>#_decimal:bonusAmount2_#</span> bonus; $<span class='depositAmount3'>#_decimal:depositAmount3_#</span> for a $<span class='bonusAmount3'>#_decimal:bonusAmount3_#</span> bonus; or $<span class='depositAmount4'>#_decimal:depositAmount4_#</span> for a $<span class='bonusAmount4'>#_decimal:bonusAmount4_#</span> bonus. . If your net qualifying assets are within $100 of a higher bonus level, you will be credited at that level so you receive a larger bonus.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Bonus will be awarded to your Capital One Investing brokerage account within 4-6 weeks following the 60-day period. Bonus may be refused if it is determined that you violated Capital One Investing’s <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong><em>Any applicable taxes related to Capital One Investing Offers are the responsibility of the account holder.  To the extent required by law, Capital One will report the total value of the bonus with respect to a non-IRA investment account to the IRS on Form 1099-INT for the applicable tax year in which it is paid.  Account holders should consult a tax or legal advisor to determine the appropriate tax treatment of this bonus for tax purposes. </em></strong></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p>If you have a Bank account linked to your Capital One Investing account, your bonus may be automatically deposited into the linked Bank account. Otherwise, call (800)-248-3919 and select option 2 to request that your bonus be transferred from your Capital One Investing account via personal check. If you take a distribution from your IRA, the amount withdrawn (including any earnings) will be reported on an IRS Form 1099-R to you and the IRS. <strong>Please consult your tax or legal advisor prior to signing a distribution form.</strong></p>
+  ]]>
+</disclaimer>
+
+<disclaimer name="jnonIRAiracptoneaagrpsingle" title="Joint Offer - non-IRA and IRA Cash Promotion – 4 Tiered Offer for New &amp; Existing Accounts Asset Gathering - Single Promo Code" accountType="nonira" qualification="fund" bonusType="cash" tiered="yes">
+  <![CDATA[
+  <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p>You have two steps to qualify for your cash bonus. First, visit capitaloneinvesting.com and enter promo code <span class='promoCode'>#_string:promoCode_#</span> in your new or existing account by <span class='openDate'>#_date:openDate_#</span>. (The promotion is not valid for Capital One Advisors Managed Portfolio accounts or accounts opened through a financial advisor.) Second, deposit, transfer or roll over assets to that account. Assets must post to that account within 90 days of entering the code. Your net qualifying assets posted during that <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period must be at least $<span class='depositAmount1'>#_decimal:depositAmount1_#</span> to be eligible for a $<span class='bonusAmount1'>#_decimal:bonusAmount1_#</span> bonus; $<span class='depositAmount2'>#_decimal:depositAmount2_#</span> for a $<span class='bonusAmount2'>#_decimal:bonusAmount2_#</span> bonus; $<span class='depositAmount3'>#_decimal:depositAmount3_#</span> for a $<span class='bonusAmount3'>#_decimal:bonusAmount3_#</span> bonus; or $<span class='depositAmount4'>#_decimal:depositAmount4_#</span> for a $<span class='bonusAmount4'>#_decimal:bonusAmount4_#</span> bonus. If your net qualifying assets are within $100 of a higher bonus level, you will be credited at that level so you receive a larger bonus. Your net qualifying assets are the total amounts of your deposits, transfers and rollovers, minus any withdrawals. (Note: the qualifying asset amount isn't affected by any change in value for your securities after they were deposited.) Transfers from an existing online Capital One Investing, LLC, account, or from a Capital One 360® IRA to an online Capital One Investing IRA, do not qualify. Valid for IRAs and Individual, Joint or Custodial accounts only. Promotion is non-transferable and not valid for ESAs. Net qualifying assets only count toward one offer. If you previously qualified for a similar offer in any of your Capital One Investing accounts, you are not eligible to enroll in this offer for <span class='leastMonths'>#_decimal:leastMonths_#</span> months after the date you enrolled in the previous offer.</p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p>Bonus will be awarded to your account within <span class='bonusTime'>#_string:bonusTime_#</span> following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period. Bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded. Qualifying assets must remain in the account (minus any losses related to trading or market volatility) for at least <span class='leastMonths2'>#_decimal:leastMonths2_#</span> months following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period or your bonus may be reclaimed. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong><em>Any applicable taxes related to Capital One Investing Offers are the responsibility of the account holder. To the extent required by law, Capital One will report the total value of the bonus with respect to a non-IRA investment account to the IRS on Form 1099-INT for the applicable tax year in which it is paid. Account holders should consult a tax or legal advisor to determine the appropriate tax treatment of this bonus for tax purposes.</em></strong></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account. The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+  ]]>
+</disclaimer>
+
+<disclaimer name="jnonIRAiracptoneaagrpsingle5" title="Joint Offer - non-IRA and IRA Cash Promotion – 5 Tiered Offer for New &amp; Existing Accounts Asset Gathering - Single Promo Code" accountType="nonira" qualification="fund" bonusType="cash" tiered="yes">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, enter promo code <span class='promoCode'>#_string:promoCode_#</span> on capitaloneinvesting.com by <span class='openDate'>#_date:openDate_#</span>. (The promotion is not valid for Capital One Advisors Managed Portfolio accounts or accounts opened through a financial advisor.) Second, deposit, transfer or roll over assets to that account. Assets must post to that account within <span class='calendarDays'>#_decimal:calendarDays_#</span> days of entering the code. Your net qualifying assets posted during that <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period must be at least $<span class='depositAmount1'>#_decimal:depositAmount1_#</span> to be eligible for a $<span class='bonusAmount1'>#_decimal:bonusAmount1_#</span> bonus; $<span class='depositAmount2'>#_decimal:depositAmount2_#</span> for a $<span class='bonusAmount2'>#_decimal:bonusAmount2_#</span> bonus; $<span class='depositAmount3'>#_decimal:depositAmount3_#</span> for a $<span class='bonusAmount3'>#_decimal:bonusAmount3_#</span> bonus; $<span class='depositAmount4'>#_decimal:depositAmount4_#</span> for a $<span class='bonusAmount4'>#_decimal:bonusAmount4_#</span> bonus; or $<span class='depositAmount5'>#_decimal:depositAmount5_#</span> for a $<span class='bonusAmount5'>#_decimal:bonusAmount5_#</span> bonus If your net qualifying assets are within $100 of a higher bonus level, you will be credited at that level so you receive a larger bonus. Your net qualifying assets are the total amounts of your deposits, transfers and rollovers, minus any withdrawals. (Note: the qualifying asset amount isn't affected by any change in value for your securities after they were deposited.) Transfers from an existing online Capital One Investing, LLC, account, or from a Capital One 360® IRA to an online Capital One Investing IRA, do not qualify. Valid for IRAs and Individual, Joint or Custodial accounts only. Promotion is non-transferable and not valid for ESAs. Net qualifying assets only count toward one offer. If you previously qualified for a similar offer in any of your Capital One Investing accounts, you are not eligible to enroll in this offer for <span class='leastMonths'>#_decimal:leastMonths_#</span> months after the date you enrolled in the previous offer.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Bonus will be awarded to your account within <span class='bonusTime'>#_string:bonusTime_#</span> following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period. Bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded. Qualifying assets must remain in the account (minus any losses related to trading or market volatility) for at least <span class='leastMonths2'>#_decimal:leastMonths2_#</span> months following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period or your bonus may be reclaimed. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong><em>Any applicable taxes related to Capital One Investing Offers are the responsibility of the account holder.  To the extent required by law, Capital One will report the total value of the bonus with respect to a non-IRA investment account to the IRS on Form 1099-INT for the applicable tax year in which it is paid.  Account holders should consult a tax or legal advisor to determine the appropriate tax treatment of this bonus for tax purposes. </em></strong></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+  ]]>
+</disclaimer>
+
+<disclaimer name="cjnonIRAiracpagrpc" title="Costco Joint Offer - non-IRA and IRA Cash Promotion– Tiered Offer for New &amp; Existing Accounts Asset Gathering" accountType="nonira" qualification="fund" bonusType="cash" tiered="yes">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, enter promo code <span class='promoCode'>#_string:promoCode_#</span> for new online investing accounts, or <span class='promoCodeExisting'>#_string:promoCodeExisting_#</span> for existing accounts, by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. Your Costco membership number must be entered and verified during the investing account set-up process to qualify. Second, deposit, transfer or roll over assets to that account. Assets must post to that account within <span class='calendarDays'>#_decimal:calendarDays_#</span> days of entering the code. Your net qualifying assets posted during that <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period must be at least $<span class='depositAmount1'>#_decimal:depositAmount1_#</span> to be eligible for a $<span class='bonusAmount1'>#_decimal:bonusAmount1_#</span> bonus; $<span class='depositAmount2'>#_decimal:depositAmount2_#</span> for a $<span class='bonusAmount2'>#_decimal:bonusAmount2_#</span> bonus; $<span class='depositAmount3'>#_decimal:depositAmount3_#</span> for a $<span class='bonusAmount3'>#_decimal:bonusAmount3_#</span> bonus; or $<span class='depositAmount4'>#_decimal:depositAmount4_#</span> for a $<span class='bonusAmount4'>#_decimal:bonusAmount4_#</span> bonus. If your net qualifying assets are within $100 of a higher bonus level, you will be credited at that level so you receive a larger bonus. Your net qualifying assets are the total amounts of your deposits, transfers and rollovers, minus any withdrawals. (Note: the qualifying asset amount isn't affected by any change in value for your securities after they were deposited.) Transfers from an existing online Capital One Investing account, or from a Capital One 360<sup>&reg;</sup> IRA to an online Capital One Investing IRA, do not qualify. Valid for IRAs and Individual, Joint or Custodial accounts only. Promotion is non-transferable and not valid for ESAs. Net qualifying assets only count towards one offer. If you previously qualified for a similar offer in any of your Capital One Investing accounts, you are not eligible to enroll in this offer for <span class='leastMonths'>#_decimal:leastMonths_#</span> months after the date you enrolled in the previous offer.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Bonus will be awarded to your account within <span class='bonusTime'>#_string:bonusTime_#</span> following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period. Bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded. Qualifying assets must remain in the account (minus any losses related to trading or market volatility) for at least <span class='leastMonths2'>#_decimal:leastMonths2_#</span> months following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period or your bonus may be reclaimed. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/costco/investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong><em>Any applicable taxes related to Capital One Investing Offers are the responsibility of the account holder.  To the extent required by law, Capital One will report the total value of the bonus with respect to a non-IRA investment account to the IRS on Form 1099-INT for the applicable tax year in which it is paid.  Account holders should consult a tax or legal advisor to determine the appropriate tax treatment of this bonus for tax purposes. </em></strong></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+  ]]>
+</disclaimer>
+
+<disclaimer name="fsag" title="Full Service Asset Gathering" accountType="nonira" qualification="fund" bonusType="cash" tiered="yes">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p>You have two steps to qualify for your bonus. First, meet with your financial advisor to understand the options available. Second, subject to suitability requirements, initiate a new deposit, transfer, and/or rollover (“qualifying transaction”) by <span class='openDate'>#_date:openDate_#</span>. Your net qualifying assets are the total amounts of your deposits, transfers and rollovers, minus any withdrawals, that are funded within sixty (60) days of the qualifying transaction. Net qualifying assets are calculated at the account level. (Note: the qualifying asset amount isn’t affected by any change in value for your securities after they were deposited.) Transfers from an existing Capital One Investing account, or from a CAPITAL ONE BANK IRA TO CAPITAL ONE INVESTING IRA, DO NOT QUALIFY. VALID FOR INDIVIDUAL, JOINT, AND CUSTODIAL ACCOUNTS AND TRADITIONAL AND Roth IRAs. Valid only for qualifying transactions in your Capital One Investing brokerage account. Promotion is non-transferable and not valid for 529 Plans, Trusts, Education Savings Accounts (“ESAs”), Government, or other Business/Corporate accounts. Limit one offer per account (multiple accounts may qualify) and up to $<span class='depositAmount1'>#_decimal:depositAmount1_#</span> per client or client beneficiary. Your net qualifying assets funded during the 60-day period in any one account must be at least $<span class='depositAmount1'>#_decimal:depositAmount1_#</span> to be eligible for a $<span class='bonusAmount1'>#_decimal:bonusAmount1_#</span> bonus; $<span class='depositAmount2'>#_decimal:depositAmount2_#</span> for a $<span class='bonusAmount2'>#_decimal:bonusAmount2_#</span> bonus; $<span class='depositAmount3'>#_decimal:depositAmount3_#</span> for a $<span class='bonusAmount3'>#_decimal:bonusAmount3_#</span> bonus; or $<span class='depositAmount4'>#_decimal:depositAmount4_#</span> for a $<span class='bonusAmount4'>#_decimal:bonusAmount4_#</span> bonus. If your net qualifying assets are within $100 of a higher bonus level, you will be credited at that level so you receive a larger bonus.</p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p>Bonus will be awarded to your Capital One Investing brokerage account within 4-6 weeks following the 60-day period. Bonus may be refused if it is determined that you violated Capital One Investing’s <a href="https://www.capitaloneinvesting.com/costco/investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong><em>Any applicable taxes related to Capital One Investing Offers are the responsibility of the account holder.  To the extent required by law, Capital One will report the total value of the bonus with respect to a non-IRA investment account to the IRS on Form 1099-INT for the applicable tax year in which it is paid.  Account holders should consult a tax or legal advisor to determine the appropriate tax treatment of this bonus for tax purposes. </em></strong></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+    <p class='disclaimer-title'><strong>HOW TO ACCESS YOUR BONUS</strong></p>
+    <p>If you have a Bank account linked to your Capital One Investing account, your bonus may be automatically deposited into the linked Bank account. Otherwise, call (800)-248-3919 and select option 2 to request that your bonus be transferred from your Capital One Investing account via personal check. If you take a distribution from your IRA, the amount withdrawn (including any earnings) will be reported on an IRS Form 1099-R to you and the IRS. <strong>Please consult your tax or legal advisor prior to signing a distribution form.</strong></p>
+  ]]>
+</disclaimer>
+
+<disclaimer name="cpIRAcstcdoo" title="Cash Promotion – IRA Contribution Single Tier - Cash Deposit Only Offer" accountType="ira" qualification="fund" bonusType="cash" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, open a new online Individual Retirement Account (IRA) using promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Second, deposit $<span class='depositAmount'>#_decimal:depositAmount_#</span> in cash by <span class='depositDate'>#_date:depositDate_#</span>. Transfers from a Capital One 360® IRA do not qualify. This promotion is not valid with any other promotion and is non-transferable. Limit one bonus per customer.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will deposit a $<span class='bonusAmount'>#_decimal:bonusAmount_#</span> bonus within <span class='bonusTime'>#_string:bonusTime_#</span> after you complete your deposit. The bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Cash deposited into the account to qualify for the promotion must remain in the account (minus any losses related to trading or market volatility) for at least <span class='leastMonths'>#_decimal:leastMonths_#</span> months beyond the date your qualifying deposit posts to your account, or your bonus may be reclaimed. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Capital One Investing's Account Agreement" title="Capital One Investing's Account Agreement">Account Agreement</a>.</em></p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong><em>Any applicable taxes related to Capital One Investing Offers are the responsibility of the account holder.  To the extent required by law, Capital One will report the total value of the bonus with respect to a non-IRA investment account to the IRS on Form 1099-INT for the applicable tax year in which it is paid.  Account holders should consult a tax or legal advisor to determine the appropriate tax treatment of this bonus for tax purposes. </em></strong></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+  ]]>
+</disclaimer>
+<disclaimer name="n16cpIRAcstcdoo" title="2016 New and Existing Accounts Cash Promotion  – IRA Contribution Single Tier - Cash Deposit Only Offer" accountType="ira" qualification="fund" bonusType="cash" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, visit capitaloneinvesting.com and open a new online Individual Retirement Account (IRA) using promo code <span class='promoCode'>#_string:promoCode_#</span>, or enter that promo code in your existing IRA, by the promotion expiration date: <span class='openDate'>#_date:openDate_#</span>. (The promotion is not valid for Capital One Advisors Managed Portfolio accounts or accounts opened through a financial advisor.) You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Second, make a net deposit, transfer and/or rollover that posts to your new or existing account within 30 days of entering the promo code. Your net qualifying assets posted during that 30-day period must be at least $5,000 to be eligible for the $50 bonus. If your net qualifying assets are within $100 of $5,000, you will still be credited the bonus. Your net qualifying assets are the total amounts of your deposits and transfers, minus any withdrawals. (Note: the qualifying asset amount is not affected by any change in value in your securities after they were deposited.) Transfers from an existing online Capital One Investing account, or from a Capital One 360<sup>&reg;</sup> IRA to an online Capital One Investing IRA, do not qualify. This promotion is not valid with any other promotion and is non-transferable. Limit one bonus per customer.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will deposit a $50 bonus within 5-7 days following the 30-day period. The bonus is not available for withdrawal for 180 days after it is awarded to your account. Qualifying assets must remain in the account (minus any losses related to trading or market volatility) for at least 9 months following the 30-day period or your bonus may be reclaimed. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Capital One Investing's Account Agreement" title="Capital One Investing's Account Agreement">Account Agreement</a>.</em></p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong><em>Any applicable taxes related to Capital One Investing Offers are the responsibility of the account holder.  To the extent required by law, Capital One will report the total value of the bonus with respect to a non-IRA investment account to the IRS on Form 1099-INT for the applicable tax year in which it is paid.  Account holders should consult a tax or legal advisor to determine the appropriate tax treatment of this bonus for tax purposes. </em></strong></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+  ]]>
+</disclaimer>
+<disclaimer name="costcoCPIRACSTCDOO" title="Costco Cash Promotion – IRA Contribution Single Tier - Cash Deposit Only Offer" accountType="ira" qualification="fund" bonusType="cash" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, open a new online Individual Retirement Account (IRA) using promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. Your Costco membership number must be entered and verified during the investing account set-up process to qualify. You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Second, deposit $<span class='depositAmount'>#_decimal:depositAmount_#</span> in cash by <span class='depositDate'>#_date:depositDate_#</span>. Transfers from a Capital One 360® IRA do not qualify. This promotion is not valid with any other promotion and is non-transferable. Limit one bonus per customer.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will deposit a $<span class='bonusAmount'>#_decimal:bonusAmount_#</span> bonus within <span class='bonusTime'>#_string:bonusTime_#</span> after you complete your deposit. The bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Cash deposited into the account to qualify for the promotion must remain in the account (minus any losses related to trading or market volatility) for at least <span class='leastMonths'>#_decimal:leastMonths_#</span> months beyond the date your qualifying deposit posts to your account, or your bonus may be reclaimed. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/costco/investment-account-agreement.aspx" target="_blank" aria-label="Click for Capital One Investing's Account Agreement" title="Capital One Investing's Account Agreement">Account Agreement</a>.</em></p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong><em>Any applicable taxes related to Capital One Investing Offers are the responsibility of the account holder.  To the extent required by law, Capital One will report the total value of the bonus with respect to a non-IRA investment account to the IRS on Form 1099-INT for the applicable tax year in which it is paid.  Account holders should consult a tax or legal advisor to determine the appropriate tax treatment of this bonus for tax purposes. </em></strong></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+  ]]>
+</disclaimer>
+<disclaimer name="cpIRActo" title="Cash Promotion – IRA Contribution Tiered Offer" accountType="ira" qualification="fund" bonusType="cash" tiered="yes">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, open a new online Individual Retirement Account (IRA) on capitaloneinvesting.com using promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. (The promotion is not valid for Capital One Advisors Managed Portfolio accounts or accounts opened through a financial advisor.) You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Second, you must make a net deposit, transfer, and/or rollover that posts to your new account by <span class='depositDate'>#_date:depositDate_#</span>. Promotion expires <span class='openDate'>#_date:openDate_#</span>. Your net qualifying assets posted during that <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period must be at least $<span class='depositAmount1'>#_decimal:depositAmount1_#</span> to be eligible for a $<span class='bonusAmount1'>#_decimal:bonusAmount1_#</span> bonus, $<span class='depositAmount2'>#_decimal:depositAmount2_#</span> for a $<span class='bonusAmount2'>#_decimal:bonusAmount2_#</span> bonus, $<span class='depositAmount3'>#_decimal:depositAmount3_#</span> for a $<span class='bonusAmount3'>#_decimal:bonusAmount3_#</span> bonus, $<span class='depositAmount4'>#_decimal:depositAmount4_#</span> for a $<span class='bonusAmount4'>#_decimal:bonusAmount4_#</span> bonus, or $<span class='depositAmount5'>#_decimal:depositAmount5_#</span> for a $<span class='bonusAmount5'>#_decimal:bonusAmount5_#</span> bonus. If your net qualifying assets are within $100 of a higher bonus level, you will be credited at that level so you receive a larger bonus. Your net qualifying assets are the total amounts of your deposits and transfers, minus any withdrawals. (Note: the qualifying asset amount isn't affected by any change in value for your securities after they were deposited.) Transfers from a Capital One 360® IRA do not qualify. This promotion is not valid with any other promotion and is non-transferable. Limit one bonus per customer.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will add the bonus to your account by <span class='bonusDate'>#_date:bonusDate_#</span>. The bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Qualifying assets must remain in the account (minus any losses related to trading or market volatility) for at least <span class='leastMonths'>#_decimal:leastMonths_#</span> months after <span class='bonusDate'>#_date:bonusDate_#</span>, or your bonus may be reclaimed. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Capital One Investing's Account Agreement" title="Capital One Investing's Account Agreement">Account Agreement</a>.</p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong><em>Any applicable taxes related to Capital One Investing Offers are the responsibility of the account holder.  To the extent required by law, Capital One will report the total value of the bonus with respect to a non-IRA investment account to the IRS on Form 1099-INT for the applicable tax year in which it is paid.  Account holders should consult a tax or legal advisor to determine the appropriate tax treatment of this bonus for tax purposes. </em></strong></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+  ]]>
+</disclaimer>
+<disclaimer name="IRAcptp" title="IRA Cash Promotion–Tiered Promotion WITHOUT specific deposit dates" accountType="nonira" qualification="fund" bonusType="cash" tiered="yes">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, open a new online Individual Retirement Account (IRA) on capitaloneinvesting.com using promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. (The promotion is not valid for Capital One Advisors Managed Portfolio accounts or accounts opened through a financial advisor.) You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Second, make a net deposit, transfer, and/or rollover that posts to your new account within <span class='calendarDays'>#_decimal:calendarDays_#</span> days of opening your account. Your net qualifying assets posted during that <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period must be at least $<span class='depositAmount1'>#_decimal:depositAmount1_#</span> to be eligible for a $<span class='bonusAmount1'>#_decimal:bonusAmount1_#</span> bonus, $<span class='depositAmount2'>#_decimal:depositAmount2_#</span> for a $<span class='bonusAmount2'>#_decimal:bonusAmount2_#</span> bonus, $<span class='depositAmount3'>#_decimal:depositAmount3_#</span> for a $<span class='bonusAmount3'>#_decimal:bonusAmount3_#</span> bonus, $<span class='depositAmount4'>#_decimal:depositAmount4_#</span> for a $<span class='bonusAmount4'>#_decimal:bonusAmount4_#</span> bonus, or $<span class='depositAmount5'>#_decimal:depositAmount5_#</span> for a $<span class='bonusAmount5'>#_decimal:bonusAmount5_#</span> bonus. If your net qualifying assets are within $100 of a higher bonus level, you will be credited at that level so you receive a larger bonus. Your net qualifying assets are the total amounts of your deposits and transfers, minus any withdrawals. (Note: the qualifying asset amount isn't affected by any change in value for your securities after they were deposited.) Transfers from an existing online Capital One Investing account, or from a Capital One 360<sup>&reg;</sup> IRA to an online Capital One Investing IRA, do not qualify. Promotion is non-transferable, not valid for ESAs, and not valid with any other promotion. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will add the bonus to your account within <span class='bonusTime'>#_string:bonusTime_#</span> following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period. The bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Qualifying assets must remain in the account (minus any losses related to trading or market volatility) for at least <span class='leastMonths'>#_decimal:leastMonths_#</span> months following the <span class='calendarDays'>#_decimal:calendarDays_#</span>-day period or your bonus may be reclaimed. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Capital One Investing's Account Agreement" title="Capital One Investing's Account Agreement">Account Agreement</a>.</em></p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong><em>Any applicable taxes related to Capital One Investing Offers are the responsibility of the account holder.  To the extent required by law, Capital One will report the total value of the bonus with respect to a non-IRA investment account to the IRS on Form 1099-INT for the applicable tax year in which it is paid.  Account holders should consult a tax or legal advisor to determine the appropriate tax treatment of this bonus for tax purposes. </em></strong></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+  ]]>
+</disclaimer>
+<disclaimer name="cpIRAcaft" title="Cash Promotion – IRA Contribution after First Trade" accountType="ira" qualification="trade" bonusType="cash" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your cash bonus. First, open a new online Individual Retirement Account (IRA) using promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Second, execute one trade by <span class='tradeDate'>#_date:tradeDate_#</span>. This promotion is not valid with any other promotion and is non-transferable. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will add the bonus to your account by <span class='bonusDate'>#_date:bonusDate_#</span>. The bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+    <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+    <p><strong><em>Any applicable taxes related to Capital One Investing Offers are the responsibility of the account holder.  To the extent required by law, Capital One will report the total value of the bonus with respect to a non-IRA investment account to the IRS on Form 1099-INT for the applicable tax year in which it is paid.  Account holders should consult a tax or legal advisor to determine the appropriate tax treatment of this bonus for tax purposes. </em></strong></p>
+    <p><strong><em>For traditional and Roth IRAs, the bonus is a cash award that will be deposited directly into the account holder's IRA and treated the same as investment earnings in the account.  The bonus will not be reported to the IRS as an IRA contribution and will be reported when distributed on Form 1099-R the same as the remainder of your IRA balance. Account holders should consult their tax or legal advisor about the treatment of earnings in IRAs, guidelines on IRS contribution limits, and the appropriate tax treatment for this bonus before accepting the bonus.</em></strong></p>
+  ]]>
+</disclaimer>
+<disclaimer name="cptb" title="Cash Promotion - Transfer in Bonus" accountType="nonira" qualification="fund" bonusType="cash" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>You have two steps to qualify for your bonus. First, open a new online Individual, Joint, or Custodial account by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. Second, complete a full brokerage transfer of cash and/or assets valued at $<span class='depositAmount'>#_decimal:depositAmount_#</span> or more by <span class='depositDate'>#_date:depositDate_#</span>. You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Promotion is non-transferable, not valid for IRAs and ESAs, and not valid with any other promotion. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Capital One Investing will deposit a $<span class='bonusAmount'>#_decimal:bonusAmount_#</span> bonus within <span class='bonusTime'>#_string:bonusTime_#</span> after you complete the full brokerage transfer. Your bonus is not available for withdrawal for <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="tcp" title="Trade Credit Promotion" accountType="nonira" qualification="fund" bonusType="trade" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE TRADE CREDIT WORKS</strong></p>
+    <p><em>You have two steps to qualify for your bonus. First, open a new online Individual, Joint, or Custodial account and enter promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Second, deposit $<span class='depositAmount'>#_decimal:depositAmount_#</span> or more that posts to your account by <span class='depositDate'>#_date:depositDate_#</span>. Promotion is non-transferable, not valid for IRAs and ESAs, and not valid with any other promotion. Trade credit(s) will only be posted to accounts approved for trading at Capital One Investing's sole discretion. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR TRADE CREDIT</strong></p>
+    <p><em>Capital One Investing will post <span class='numberofTrades'>#_decimal:numberofTrades_#</span> online trade credit(s) to your account within <span class='bonusBusinessDays'>#_decimal:bonusBusinessDays_#</span> business day(s) of your deposit. Your trade credit(s) will expire on <span class='tradeDate'>#_date:tradeDate_#</span>. Online trade credits do not apply toward PortfolioBuilder, ShareBuilder<sup>&reg;</sup> investment plan,  mutual funds, or per-contract option charges. Additional services and charges beyond base commissions, such as the Low-priced Securities Surcharge and Express Funding, are not covered. See <a href="https://www.capitaloneinvesting.com/main/pricing-trading.aspx" target="_blank" aria-label="Click for pricing and rates" title="pricing and rates">pricing and rates</a>. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="gosrttc" title="Gift of stock RTTC" accountType="nonira" qualification="fund" bonusType="trade" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE TRADE CREDIT WORKS</strong></p>
+    <p><em>To qualify for your <span class='numberofTrades'>#_decimal:numberofTrades_#</span> online trade credit bonus, open a new online account at capitaloneinvesting.com using promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion code expiration date of <span class='openDate'>#_date:openDate_#</span>. (The promotion is not valid for Capital One Advisors Managed Portfolio accounts or accounts opened through a financial advisor.) You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC account. Trade credits will only be posted to accounts approved for trading at Capital One Investing's sole discretion. The promotion is non-transferable and not valid with any other promotion. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR TRADE CREDIT</strong></p>
+    <p><em>Capital One Investing will post <span class='numberofTrades'>#_decimal:numberofTrades_#</span> online trade credits to your account once it’s opened. Your trade credits are valid through <span class='tradeDate'>#_date:tradeDate_#</span>. Online trade credits do not apply toward PortfolioBuilder, ShareBuilder<sup>&reg;</sup> investment plan, mutual funds or per-contract option charges. Additional services and charges beyond base commissions, such as the Low-priced Securities Surcharge and Express Funding, are not covered—see <a href="https://www.capitaloneinvesting.com/main/pricing-trading.aspx" target="_blank" aria-label="Click for pricing and rates" title="pricing and rates">pricing and rates</a>. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="ftcp" title="Free Trade Credit Promotion" accountType="all" qualification="other" bonusType="trade" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE TRADE CREDIT WORKS</strong></p>
+    <p><em>To qualify, enter promo code <span class='promoCode'>#_string:promoCode_#</span> by <span class='openDate'>#_date:openDate_#</span>. Capital One Investing will post <span class='numberofTrades'>#_decimal:numberofTrades_#</span> online trade credits to your account within <span class='bonusBusinessDays'>#_decimal:bonusBusinessDays_#</span> business day(s) after entering promo code <span class='promoCode'>#_string:promoCode_#</span>. The online trade credit(s) will expire on <span class='tradeDate'>#_date:tradeDate_#</span>. More trade credits will be added if you request them by <span class='tradeDate'>#_date:tradeDate_#</span>, but must be used by <span class='tradeDate'>#_date:tradeDate_#</span>. Promotion expires <span class='openDate'>#_date:openDate_#</span>, but may be extended without notice. Only customers who have legitimately received this promotion invitation will be eligible for the promotion. This offer cannot be forwarded to others for redemption. Limit one account bonus per customer or custodial beneficiary.</em></p>
+    <p><em>Trade credits will only be posted to accounts approved for trading at Capital One Investing's sole discretion. Online trade credits do not apply toward PortfolioBuilder, ShareBuilder<sup>&reg;</sup> investment plan, mutual funds, or per-contract option charges. Additional services and charges beyond base commissions, such as the Low-priced Security Surcharge and Express Funding, are not covered.  See <a href="https://www.capitaloneinvesting.com/main/pricing-trading.aspx" target="_blank" aria-label="Click for pricing and rates" title="pricing and rates">pricing and rates</a>. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="pbtcp" title="PortfolioBuilder Trade Credit Promotion" accountType="all" qualification="other" bonusType="trade" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE TRADE CREDIT WORKS</strong></p>
+    <p><em>To qualify, buy a portfolio through PortfolioBuilder for the full price of $18.95 by <span class='openDate'>#_date:openDate_#</span>. Capital One Investing, LLC, will post <span class='numberofTrades'>#_decimal:numberofTrades_#</span> PortfolioBuilder trade credit(s), worth $18.95 each, to your account within <span class='bonusTime'>#_string:bonusTime_#</span> of your PortfolioBuilder purchase. The trade credit(s) expire on <span class='tradeDate'>#_date:tradeDate_#</span>. Promotion expires <span class='openDate'>#_date:openDate_#</span>. Valid for IRA, Individual, Joint or Custodial accounts only. Promotion is non-transferable, not valid for ESAs, and not valid with any other promotion. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p><em>Trade credits will only be posted to accounts approved for trading at Capital One Investing's sole discretion. PortfolioBuilder trade credits are only good for buying another portfolio using PortfolioBuilder and not for any other kind of investment, including the purchase of individual ETFs, stocks, mutual funds and options contracts. Additional services and charges beyond base commissions, such as Express Funding, are not covered. See <a href="https://www.capitaloneinvesting.com/main/pricing-trading.aspx" target="_blank" aria-label="Click for pricing and rates" title="pricing and rates">pricing and rates</a>. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="fpbtcp" title="Free PortfolioBuilder Trade Credit Promotion" accountType="all" qualification="other" bonusType="trade" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE TRADE CREDIT WORKS</strong></p>
+    <p><em>To qualify, enter promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. Capital One Investing, LLC, will post <span class='numberofTrades'>#_decimal:numberofTrades_#</span> PortfolioBuilder trade credit(s), worth $18.95 each, to your account within <span class='bonusTime'>#_string:bonusTime_#</span> after entering promo code <span class='promoCode'>#_string:promoCode_#</span>. The PortfolioBuilder trade credit(s) expire on <span class='tradeDate'>#_date:tradeDate_#</span>. Valid for IRA, Individual, Joint or Custodial accounts only. Promotion is non-transferable, not valid for ESAs, and not valid with any other promotion. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p><em>Trade credits will only be posted to accounts approved for trading at Capital One Investing's sole discretion. PortfolioBuilder trade credits are only good for buying another portfolio using PortfolioBuilder and not for any other kind of investment, including the purchase of individual ETFs, stocks, mutual funds and options contracts. Additional services and charges beyond base commissions, such as Express Funding, are not covered. See <a href="https://www.capitaloneinvesting.com/main/pricing-trading.aspx" target="_blank" aria-label="Click for pricing and rates" title="pricing and rates">pricing and rates</a>. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="fpbtcpblackfriday" title="Free PortfolioBuilder Trade Credit Promotion – Based on Black Friday 2014 Customer Promotion" accountType="all" qualification="other" bonusType="trade" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE TRADE CREDIT WORKS</strong></p>
+    <p><em>To qualify, enter promo code <span class='promoCode'>#_string:promoCode_#</span> by the promotion expiration date:&nbsp;<span class='openDate'>#_date:openDate_#</span>. Capital One Investing, LLC, will post <span class='numberofTrades'>#_decimal:numberofTrades_#</span> PortfolioBuilder trade credit to your account on <span class='openDate'>#_date:openDate_#</span>. The PortfolioBuilder trade credit expires on <span class='tradeDate'>#_date:tradeDate_#</span>. Valid for IRA, Individual, Joint or Custodial accounts only. Promotion is non-transferable, not valid for ESAs, and not valid with any other promotion. Limit one bonus per customer or custodial beneficiary.</em></p>
+    <p><em>Trade credits will only be posted to accounts approved for trading at Capital One Investing's sole discretion. PortfolioBuilder trade credits are only good for buying a portfolio using PortfolioBuilder and not for any other kind of investment, including the purchase of individual ETFs, stocks, mutual funds and options contracts. Additional services and charges beyond base commissions, such as Express Funding, are not covered. See <a href="https://www.capitaloneinvesting.com/main/pricing-trading.aspx" target="_blank" aria-label="Click for pricing and rates" title="pricing and rates">pricing and rates</a>. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="fsipcchbdem" title="FREE ShareBuilder® investment plan CREDIT (Customer Happy Birthday Emails)" accountType="all" qualification="other" bonusType="trade" tiered="no">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE TRADE CREDIT WORKS</strong></p>
+    <p><em>To qualify, enter promo code <span class='promoCode'>#_string:promoCode_#</span> by <span class='openDate'>#_date:openDate_#</span>. Capital One Investing, LLC, will post <span class='numberofTrades'>#_decimal:numberofTrades_#</span> ShareBuilder investment plan credit(s) to your account within <span class='bonusBusinessDays'>#_decimal:bonusBusinessDays_#</span> business days after entering promo code <span class='promoCode'>#_string:promoCode_#</span>. The credit(s) will expire on <span class='tradeDate'>#_date:tradeDate_#</span>. Only customers who legitimately received this promotion are eligible. This offer is not valid when shared with others. Limit one account bonus per customer or custodial beneficiary.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="rafpd" title="Refer a Friend Promotion Disclosure">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+    <p><em>To be eligible for this promotion, you must have an existing self-directed online Individual, Joint, Custodial, Individual Retirement Accounts (IRA) or Education Savings Accounts (ESA). You will receive $<span class='bonusAmount'>#_decimal:bonusAmount_#</span> cash credit for each friend you refer who opens their first new self-directed online account (existing account holders will not be considered valid referrals) by <span class='endDate'>#_date:endDate_#</span>. The $<span class='bonusAmount'>#_decimal:bonusAmount_#</span> cash reward will only apply to your first 5 successful referrals, for a total maximum cash reward of $<span class='maximumAmount'>#_decimal:maximumAmount_#</span>. To ensure that you get your cash reward, your friends must open their account by clicking on your custom link. If multiple customers refer the same person, the cash reward will go to the customer whose custom link was used to open the account.</em></p>
+    <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+    <p><em>Once your friend opens an online self-directed account, your cash reward will be available in your account within <span class='bonusTime'>#_string:bonusTime_#</span> weeks. The bonus is not available for withdrawal for  <span class='withdrawalDays'>#_decimal:withdrawalDays_#</span> days after it is awarded to your account. If you have multiple accounts with Capital One Investing, LLC, we'll credit the $<span class='bonusAmount'>#_decimal:bonusAmount_#</span> cash reward to your newest active account. Capital One Investing, LLC is not responsible for any incorrect entries. This promotion is not valid with any other offers and is non-transferable. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/costco/investment-account-agreement.aspx" target="_blank" aria-label="Click for Account Agreement" title="Account Agreement">Account Agreement</a>.</em></p>
+  ]]>
+</disclaimer>
+
+<!-- PROSPECTUS OFFER  - Disclaimers -->
+<disclaimer name="MForETFs" title="For Mutual Funds or ETFs">
+  <![CDATA[
+    <p><em>You should carefully consider a fund's investment objectives, risks, charges and expenses before investing. For a prospectus containing this and other important information, please visit the fund's detailed quote page, or contact a <a href="https://www.capitaloneinvesting.com/main/contact-us.aspx" target="_blank" aria-label="Click for Capital One Investing Customer Service Associate" title="Capital One Investing Customer Service Associate">Capital One Investing Customer Service Associate.</a>. Please read the prospectus carefully before investing</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="MFandETFs" title="When Mutual Funds and ETFs are Both Mentioned">
+  <![CDATA[
+    <p><em>You should carefully consider a fund's investment objectives, risks, charges and expenses before investing. For a prospectus containing this and other important information, please visit the fund's detailed quote page, or contact a <a href="https://www.capitaloneinvesting.com/main/contact-us.aspx" target="_blank" aria-label="Click for Capital One Investing Customer Service Associate" title="Capital One Investing Customer Service Associate">Capital One Investing Customer Service Associate</a>. Please read the prospectus carefully before investing. Learn more about the <a href="https://content.capitaloneinvesting.com/mgdcon/knowledgecenter/Trade/etfs/how-are-etfs-different-from-mutual-funds.htm" target="_blank" aria-label="Click to see differences between mutual funds and ETFs" title="differences between mutual funds and ETFs">differences between mutual funds and ETFs</a>.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="MFERP" title="When Mutual Funds and ETFs are Both Mentioned">
+  <![CDATA[
+    <p><strong>Mutual Fund Early Redemption Policy:</strong> Capital One Investing, LLC, reserves the right to charge $49.95 on the redemption or exchange of any no-load, no-transaction fee mutual fund shares held less than 90 days (except for money market funds). This charge is in addition to any charges or expenses addressed in the fund's prospectus.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="MFETP" title="When Mutual Funds and ETFs are Both Mentioned">
+  <![CDATA[
+    <p><strong>Mutual Fund Excessive Trading Policy:</strong> Capital One Investing, LLC, has adopted an Excessive Trading Policy to respond to the demands of the mutual fund families - which make their funds available through Capital One Investing accounts - to discourage market timing and excessive trading activity in mutual funds.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="ETFC" title="ETF Commission Expense">
+  <![CDATA[
+    <p>ETFs must be bought and sold through a broker-dealer such as Capital One Investing, LLC, which will involve commission expenses. ETFs are not directly redeemable and are subject to market volatility. When buying or selling an ETF, an investor will receive the prevailing market price. Dividends are not guaranteed, and not all ETFs include a dividend investment objective or strategy.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="BrokerComparisonChartInPage" title="Broker Comparison Chart Disclosures (In Page)">
+  <![CDATA[
+    <p class="footnote">$6.95 is the price charged for each online trade you make, but other charges may apply depending on your order. For complete information, including extra charges for Low-Priced Securities, Mutual Funds, Options and more, see <a onclick="s_objectID=&quot;http://www.capitaloneinvesting.com/main/pricing-trading.aspx_1&quot;;return this.s_oc?this.s_oc(e):true" href="http://www.capitaloneinvesting.com/main/pricing-trading.aspx" target="_blank">pricing and rates</a>. To find out what additional charges may be applied by other brokers, please see their websites.</p>
+        <p class="footnote no-mobile"><strong>Important:</strong> Buying securities on margin is not appropriate for all investors. Before investing on margin, please read the <a onclick="s_objectID=&quot;http://www.capitaloneinvesting.com/main/online-margin-trading-account-agreement.aspx_1&quot;;return this.s_oc?this.s_oc(e):true" href="http://www.capitaloneinvesting.com/main/online-margin-trading-account-agreement.aspx" target="_blank">Margin Account Agreement</a> and see our <a onclick="s_objectID=&quot;http://www.capitaloneinvesting.com/main/pricing-margin-rates.aspx_1&quot;;return this.s_oc?this.s_oc(e):true" href="http://www.capitaloneinvesting.com/main/pricing-margin-rates.aspx" target="_blank">margin interest rates</a> for important risk disclosure information.</p>
+        <p class="footnote no-mobile">Options involve risk and are not suitable for all investors. Before investing in options, please read the <a onclick="s_objectID=&quot;http://www.theocc.com/about/publications/character-risks.jsp_1&quot;;return this.s_oc?this.s_oc(e):true" href="http://www.theocc.com/about/publications/character-risks.jsp" target="_blank">Characteristics and Risks of Standardized Options</a>.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="BrokerComparisonChart" title="Broker Comparison Chart Disclosures">
+  <![CDATA[
+    <p><em><span class="ann">1</span> For all online U.S. equity and non-proprietary ETF trades, and for E*Trade customers who make fewer than 150 trades per quarter, commission comparison based upon the following published website commission schedules: as of 03/06/2017 for Fidelity, Scottrade, TD Ameritrade and Schwab, and 03/13/2017 for E*Trade. Other pricing may be available based on promotions, a specific asset level, or a combination of trading activity, promotions and asset levels. If you need information about accounts at other brokerages, please visit their websites.</em></p>
+    <p><em><span class="ann">2</span> $1,000 minimum can be waived when customers agree to transfer $100 monthly to their Charles Schwab brokerage account using Schwab MoneyLink.</em></p>
+    <p><em><span class="ann">3</span> With the ShareBuilder<sup>&reg;</sup> investment plan, there is no minimum investment requirement to buy stocks and ETFs; however, when investing through the plan, the investment amount does need to exceed the commission cost for the trade. If you invest in mutual funds, there is likely to be an investment minimum required by the fund family.</em></p>
+    <p><em>ShareBuilder investment plan investments are recurring or one-time purchases on Tuesdays. All sales are made with market or limit orders, and subject to applicable commissions.</em></p>
+    <p><em>Fidelity does not charge a fee for automatic investments in Fidelity funds or No Transaction Fee (NTF) FundsNetwork funds. After the initial investment, a $5 fee is charged per automatic investment into a FundsNetwork transaction fee fund. Other regular mutual fund fees may also apply.</em></p>
+    <p><em>The Schwab Automatic Investment Plan: You can make automatic investments only in an eligible fund in which you are already a shareholder. Once you have made your initial investment in a fund, additional shares may be purchased through AIP in amounts of at least $100. If an investment frequency is not specified, your investments will automatically occur monthly on the fifth. Quarterly investments occur in January, April, July and October.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="noloadnotransactionfeefunds" title="No-load/No Transaction Fee Funds">
+  <![CDATA[
+    <p>No-Load, No-Transaction Fee Mutual Funds: Costs and other expenses apply to continued investment in the fund; see the fund's current prospectus.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="PastPerformance" title="Past Performance">
+  <![CDATA[
+    <p>Past performance doesn't guarantee future results, good or bad. These tools are informational only and not an invitation to buy or sell.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="PastPerformanceLong" title="Past Performance (Long version)">
+  <![CDATA[
+    <p>Performance data represents past performance and does not guarantee future results. Investment return and principal value of an investment will fluctuate so that an investor's shares, when redeemed, may be worth more or less than their original cost. Current performance may be lower or higher than the performance data quoted. Standardized performance and performance data current to the most recent month-end can be found by selecting the Details link in the security symbol fly out.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="RiskOfLoss" title="Risk of Loss">
+  <![CDATA[
+    <p>Keep in mind, that all investing involves risk, including risk of loss.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="Rebalance" title="Rebalance">
+  <![CDATA[
+    <p>If you choose to rebalance or buy and sell individual securities in your portfolio, standard trading prices will apply. See <a href="https://www.capitaloneinvesting.com/main/pricing-trading.aspx" target="_blank" aria-label="Click for pricing and rates" title="pricing and rates">Pricing & Rates</a> for details.</p>
+  ]]>
+</disclaimer>
+
+<disclaimer name="TurboTax" title="TurboTax Disclosure">
+  <![CDATA[
+    <p>Discounts apply to TurboTax federal products only. Save $10 on TurboTax Deluxe, $15 on TurboTax Premier, and $20 on TurboTax Home & Business. Intuit, TurboTax and TurboTax Online, among others, are registered trademarks and/or service marks of Intuit Inc. In the United States and other countries. Visit <a href="http://turbotax.intuit.com/lp/yoy/guarantees.jsp" target="_blank">http://turbotax.intuit.com/lp/yoy/guarantees.jsp</a> for TurboTax product guarantees and other important information.</p>
+    <p>Capital One Investing, LLC, is a registered broker/dealer that is not affiliated with Intuit, Inc. and is not responsible for the recommendations, content, products or services presented on this web site. Capital One Investing does not provide tax or legal advice. Please consult your tax advisor regarding how tax laws may apply. Intuit is not a broker and is not a member of any stock exchange, FINRA, or SIPC. Intuit will have no involvement in any account you establish with Capital One Investing.</p>
+  ]]>
+</disclaimer>
+
+<disclaimer name="bprodandserv" title="Banking Products &amp; Services">
+  <![CDATA[
+    <p>Banking products and services are provided by Capital One, N.A., Member <a href="https://www.fdic.gov">FDIC</a>.</p>
+  ]]>
+</disclaimer>
+<!-- BANK AND CREDIT CARD DISCLOSURES - Disclaimers -->
+<disclaimer name="CreditCard" title="Credit Card">
+  <![CDATA[
+    <p>Credit Card services are provided by Capital One Bank (USA), N.A.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="HomeLoans" title="Home Loans">
+  <![CDATA[
+    <p>Mortgage products and services are offered by Capital One, N.A., NMLS ID 453156.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="AutoLoans" title="Auto Loans">
+  <![CDATA[
+    <p>Auto loans are offered by Capital One Auto Finance, a division of Capital One, N.A., Member <a href="http://www.fdic.gov/" target="_blank" aria-label="Click for FDIC" title="FDIC">FDIC</a>.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="COF" title="COF">
+  <![CDATA[
+    <p>Banking services are provided by Capital One Bank (USA), N.A. and Capital One, N.A., Members <a href="http://www.fdic.gov/" target="_blank" aria-label="Click for FDIC" title="FDIC">FDIC</a>.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="COFbank" title="COF Banking Services">
+  <![CDATA[
+    <p>Banking services are provided by Capital One Bank (USA), N.A. and Capital One, N.A., Members <a href="http://www.fdic.gov/" target="_blank" aria-label="Click for FDIC" title="FDIC">FDIC</a>.</p><p>Capital One Bank (USA), N.A., Capital One N.A., and Capital One Investing, LLC, are separate but affiliated legal entities, each responsible for its own products and services.</p>
+  ]]>
+</disclaimer>
+
+<disclaimer name="gid01754BAU" title="General Information Disclosure">
+  <![CDATA[
+    <p>This material is intended only as general information for your convenience and should not in any way be construed as investment or tax advice by Capital One Investing. You should consult with your financial professional or tax advisor for your specific situation.</p>
+  ]]>
+</disclaimer>
+
+<!-- 360 only -->
+<disclaimer name="capone360bank" title="Capital One 360 Bank Services">
+  <![CDATA[
+    <p>Banking services are provided by Capital One 360®, a division of Capital One, N.A., Member <a href="http://www.fdic.gov/" target="_blank" aria-label="Click for FDIC" title="FDIC">FDIC</a>.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="capone360brand" title="360 Brand Disclosure">
+  <![CDATA[
+    <p>Capital One 360 is a brand name of Capital One, N.A.</p><p>Banking products and services are provided by Capital One, N.A., Member <a href="http://www.fdic.gov/" target="_blank" aria-label="Click for FDIC" title="FDIC">FDIC</a>.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="capone360copyright" title="Capital One 360 Copyright">
+  <![CDATA[
+    <p>All entities are separate but affiliated legal entities of Capital One Financial Corporation, each is  responsible for its own products and services.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="CombinedBankingServicesDisclosure" title="Combined Banking Services">
+  <![CDATA[
+    <p>Banking services are provided by Capital One 360, a division of Capital One, N.A. Member <a href="http://www.fdic.gov/" title="FDIC Website" target="_blank">FDIC</a>, Capital One Bank (USA), N.A. and Capital One, N.A., Members <a href="http://www.fdic.gov/" title="FDIC Website" target="_blank">FDIC</a>.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="CombinedCardBank" title="Combined Credit Card and Banking Services">
+  <![CDATA[
+    <p>Banking and lending products and services are provided by Capital One N.A. and Capital One Bank (USA), N.A., Members <a href="http://www.fdic.gov/" title="FDIC Website" target="_blank">FDIC</a>.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="TaxLegalAdvice" title="Tax and Legal Advice">
+  <![CDATA[
+    <p>Capital One Investing does not offer tax or legal advice. Consult with your tax or legal advisor before engaging in specific strategies.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="Costco" title="Costco">
+  <![CDATA[
+    <p>Capital One Investing, LLC, is a registered broker-dealer that is not affiliated with Costco. By opening an account, you will become a customer of Capital One Investing. Costco is not a broker and is not a member of any stock exchange or <a href="http://www.sipc.org" target="_blank">SIPC</a> and is not facilitating your investment in Costco or other companies. Costco will have no involvement in any account you establish with Capital One Investing. Costco is not responsible or liable, directly or indirectly, for any information provided by Capital One Investing, or for any damage or loss arising out of or in connection with Capital One Investing.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="bankMarketing" title="Not/Not/May (Bank)">
+  <![CDATA[
+    <div class="nnm-boxy">
+        <h6 class="nnm-boxy-intro">Investment and Insurance Products Are:</h6>
+        <ul>
+            <li>Not FDIC Insured</li>
+            <li>Not Bank Guaranteed</li>
+            <li>May Lose Value</li>
+            <li>Not a Deposit</li>
+            <li>Not Insured By Any Federal Government Agency</li>
+        </ul>
+    </div>
+  ]]>
+</disclaimer>
+<disclaimer name="notnotmay" title="Not/Not/May">
+  <![CDATA[
+  <p><strong>Securities and services are: Not FDIC insured &middot; Not bank guaranteed &middot; May lose value &middot; Not a deposit &middot; Not insured by any federal government agency</strong></p>
+  ]]>
+</disclaimer>
+<disclaimer name="rafarrp" title="Refer a Friend Account Relationship Referrer Privacy">
+  <![CDATA[
+    <p>By referring a friend, you agree that your account relationship will be revealed to the friend.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="rafarfp" title="Refer a Friend Account Relationship Friend Privacy">
+  <![CDATA[
+    <p>By signing up for the product and using it you will reveal your account relationship status with the friend who referred you.</p>
+  ]]>
+</disclaimer>
+
+<!-- COPYRIGHT DISCLOSURE - Disclaimers -->
+<disclaimer name="theStreet" title="TheStreet.com Ratings">
+  <![CDATA[
+    <p>Stock grade investment ratings, stock research reports and quantitative stock screen strategy reports provided by TheStreet.com Ratings, Inc. Copyright &copy;1996-2013 TheStreet.com Ratings, Inc. and TheStreet.com, Inc. Please see TheStreet's <a href="http://corporate.thestreet.com/terms" target="_blank" aria-label="Click for TheStreet Terms of Use" title="Terms of Use">Terms of Use</a>.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="StandardPoor" title="Standard and Poor's Report">
+  <![CDATA[
+    <p>S&P Stock Reports and S&P STARS are provided by Standard & Poor's. Copyright &copy; 2013, Standard & Poor's Financial Services LLC.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="MarketWatch" title="MarketWatch">
+  <![CDATA[
+    <p>News and headlines provided by MarketWatch. Copyright &copy; 2011 MarketWatch, Inc.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="Sabrient" title="Sabrient Ratings Reports">
+  <![CDATA[
+    <p>Sabrient Ratings Reports provided by Sabrient Systems, LLC Copyright &copy; 2013.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="MorningstarReg" title="Trademark - Morningstar">
+  <![CDATA[
+    <p>Morningstar<sup>&reg;</sup> is a registered service mark of Morningstar, Inc.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="Morningstar" title="Copyright - Morningstar">
+  <![CDATA[
+    <p>&copy; 2014 Morningstar, Inc. All Rights Reserved. The information contained herein: (1) is proprietary to Morningstar and/or its content providers; (2) may not be copied or distributed; and (3) is not warranted to be accurate, complete or timely. Neither Morningstar nor its content providers are responsible for any damages or losses arising from any use of this information. Past performance is no guarantee of future results.</p>
+  ]]>
+</disclaimer>
+
+<disclaimer name="TradSysResp" title="Trading System Response">
+  <![CDATA[
+    <p>Trading system response and account access times may vary due to market conditions, system performance and other factors.</p>
+  ]]>
+</disclaimer>
+
+<!-- TRADEMARKS DISCLOSURE - Disclaimers -->
+<disclaimer name="Apple" title="Trademark - Apple products">
+  <![CDATA[
+    <p>iPhone<sup>&reg;</sup>, iPod touch<sup>&reg;</sup> and iPad<sup>&reg;</sup> are registered trademarks of Apple Inc.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="iPhone" title="Trademark - iPhone">
+  <![CDATA[
+    <p>iPhone<sup>&reg;</sup> is a registered trademark of Apple Inc.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="iPad" title="Trademark - iPad">
+  <![CDATA[
+    <p>iPad<sup>&reg;</sup> is a registered trademark of Apple Inc.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="Android" title="Trademark - Android Google trademark">
+  <![CDATA[
+    <p>Android&trade; is a trademark of Google Inc.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="iPhoneAndroidBlackBerry" title="Trademark - iPhone, Android">
+  <![CDATA[
+    <p>iPhone<sup>&reg;</sup> is a registered trademark of Apple Inc. Android is a trademark of Google Inc.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="iPhoneiPodAndroid" title="Trademark - iPhone, iPod and Android">
+  <![CDATA[
+    <p>iPhone<sup>&reg;</sup> and iPod touch<sup>&reg;</sup> are registered trademarks of Apple Inc. Android is a trademark of Google Inc.</p>
+  ]]>
+</disclaimer>
+
+<!-- MOBILE DISCLOSURE - Disclaimers -->
+<disclaimer name="EnhancedSignIn" title="Mobile - Enhanced Sign-In Security">
+  <![CDATA[
+    <p>If you haven't already, you'll need to sign up for <a href="https://www.capitaloneinvesting.com/main/authentication/signin.aspx" title="Sign up for enhanced sign-in security" target="_blank">enhanced sign-in security</a> for mobile account access.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="MobileKindleSupport" title="Mobile - Supported Kindle Device(s)">
+  <![CDATA[
+    <p>Supported Mobile Devices: Fire OS, version 6.2.2.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="MobileiPadSupport" title="Mobile - Supported iPad Device(s)">
+  <![CDATA[
+    <p>Supported Mobile Device: iPad<sup>&reg;</sup>.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="MobileiPhoneSupport" title="Mobile - Supported iPhone Device(s)">
+  <![CDATA[
+    <p>Supported Mobile Devices: iPhone<sup>&reg;</sup> and iPod touch<sup>&reg;</sup>.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="MobileAndroidSupport" title="Mobile - Supported Android Device(s)">
+  <![CDATA[
+    <p>Supported Mobile Devices: Android<sup>&trade;</sup> OS 2.1 and higher.</p>
+  ]]>
+</disclaimer>
+
+<!-- OPTIONS DISCLOSURE - Disclaimers -->
+<disclaimer name="Options" title="Options">
+  <![CDATA[
+    <p>Options involve risk and are not suitable for all investors. Before investing in options, please read the <a href="http://www.theocc.com/about/publications/character-risks.jsp" onclick="popup.TargetNewWindow(_blank);return false;" aria-label="Click for Characteristics and Risks of Standardized Options" title="Characteristics and Risks of Standardized Options">Characteristics and Risks of Standardized Options</a>.</p>
+  ]]>
+</disclaimer>
+
+<!-- MARGIN DISCLOSURE - Disclaimers -->
+<disclaimer name="Margin" title="Margin">
+  <![CDATA[
+    <p>Buying securities on margin is not appropriate for all investors. Before investing on margin, please read the <a href="https://www.capitaloneinvesting.com/main/online-margin-trading-account-agreement.aspx" target="_blank" aria-label="Click for Margin Account Agreement" title="Margin Account Agreement">Capital One Investing Margin Account Agreement</a> for important risk disclosure information, and see Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/pricing-margin-rates.aspx" target="_blank" aria-label="Click for margin interest rates" title="margin interest rates">margin interest rates</a>.</p>
+  ]]>
+</disclaimer>
+
+<!-- TRADE CREDIT DISCLOSURE - Disclaimers -->
+<disclaimer name="TradeCredit" title="Trade Credit">
+  <![CDATA[
+    <p>Trade credits only apply to base commission and may not be used to purchase mutual funds. Additional services and charges beyond base commissions, such as the Low-Priced Securities Surcharge, Per-Contract charge for options, and Express Funding, are not covered. See <a href="https://www.capitaloneinvesting.com/main/pricing-trading.aspx" target="_blank" aria-label="Click for pricing and rates" title="pricing and rates">pricing and rates</a> for details.</p>
+  ]]>
+</disclaimer>
+
+<!-- DIVERSIFICATION DISCLOSURE - Disclaimers -->
+<disclaimer name="diversification" title="Diversification does not guarantee a profit">
+  <![CDATA[
+    <p>Diversification does not guarantee a profit, or protect against market losses. </p>
+  ]]>
+</disclaimer>
+<disclaimer name="managedPortfolio" title="Managed Portfolio Disclosure">
+  <![CDATA[
+    <p><em>You should carefully consider information contained in a fund's prospectus, including investment objectives, risks, charges and expenses. For a prospectus containing this and other important information, please visit the fund's detailed quote page or <a href="https://www.capitaloneinvesting.com/main/contact-us.aspx" target="_blank" aria-label="Click for Capital One Investing Customer Service Associate" title="Capital One Investing Customer Service Associate">contact us</a>.</em></p>
+    <p>Diversification does not guarantee a profit or protect against market losses.</p>
+    <p>Investment products carry risk and there is no guarantee that your established portfolio goal will be met.</p>
+  ]]>
+</disclaimer>
+
+<!-- Pricing - Disclaimers -->
+<disclaimer name="pricingSpecificCost" title="Pricing - Specific cost shown">
+  <![CDATA[
+    <p>$6.95 is the price charged for each online trade you make, but other charges may apply depending on your order. For complete information, including extra charges for low-priced securities, options, mutual funds and more see <a href="https://www.capitaloneinvesting.com/main/pricing-trading.aspx" target="_blank" aria-label="Click for Capital One Investing's pricing and rates" title="Capital One Investing's pricing and rates">pricing and rates</a>.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="pricingSpecificCostshort" title="Pricing - Specific cost shown - short version">
+  <![CDATA[
+    <p>$6.95 is the price charged for each online equity trade you make, but other charges may apply depending on your order. Low-priced securities and other orders may cost more; see <a href="https://www.capitaloneinvesting.com/main/pricing-trading.aspx" target="_blank" aria-label="Click for Capital One Investing's pricing and rates" title="Capital One Investing's pricing and rates"> pricing and rates</a>.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="lowpricedSecurities" title="Low Priced Securities">
+  <![CDATA[
+    <p><b>Low-priced Securities:</b> For trades that execute with an average price per share of less than $1.00, Capital One Investing, LLC will add a surcharge of $0.007 per share. The base commission plus surcharge will not exceed the lesser of $500 or 15 percent of the principal amount of the trade, but will not be less than your base commission.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="expressFunding" title="Express Funding">
+  <![CDATA[
+    <p>The Express Funding service costs $6.95 for each online trade. Trades placed using Express Funding have a $5,000 daily limit. Daily is defined as the period of time between the close of business for Capital One Investing, LLC through the close of the next business day. Express Funding is available to individual, joint and Custodial accounts only.</p>
+  ]]>
+</disclaimer>
+
+<!-- AIP - Disclaimers -->
+<disclaimer name="AIP" title="ShareBuilder® investment plan">
+  <![CDATA[
+    <p>ShareBuilder<sup>&reg;</sup> investment plan investments are recurring or one-time purchases on Tuesdays. All sales are made with market or limit orders and are subject to applicable commissions.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="AIPS" title="ShareBuilder® investment plan - Stand-alone">
+  <![CDATA[
+    <p>With the ShareBuilder<sup>&reg;</sup> investment plan, there is no minimum investment requirement to buy stocks and ETFs; however, when investing through the plan, the investment amount does need to exceed the commission cost for the trade. If you invest in mutual funds, there is likely to be an investment minimum required by the fund family.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="AIPC" title="ShareBuilder® investment plan - Credits">
+  <![CDATA[
+    <p>ShareBuilder<sup>&reg;</sup> investment plan credits may not be applied to mutual funds until minimum investment amounts (determined by each fund) have been met.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="AdvantageProgram" title="Advantage Program">
+  <![CDATA[
+    <p>For complete information including the Advantage Program fees compared to Basic Program fees, see <a href="https://www.capitaloneinvesting.com/main/pricing-trading.aspx" title="Pricing and rates" target="_blank">pricing and rates</a>.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="395investing" title="$3.95 investing (FINRA)">
+  <![CDATA[
+    <p>With the ShareBuilder<sup>&reg;</sup> investment plan you can:</p>
+    <ul>
+        <li>Invest any dollar amount and select from a list of stocks, exchange-traded funds (ETFs) or mutual funds.</li>
+        <li>Schedule investments weekly, bi-weekly or monthly.</li>
+        <li>Tell us how you'd like to pay for your investments.</li>
+    </ul>
+    <p>Investment and funding instructions can be edited up to 5 PM ET on the Monday before your purchase. All sales are made with market or limit orders and are subject to applicable commissions. Purchases are made on Tuesdays&mdash;exclusively online.</p>
+  ]]>
+</disclaimer>
+
+<!-- Capital One Investing FEATURES/SERVICES - Disclaimers -->
+<disclaimer name="PortfolioBuilder" title="SB services features - PortfolioBuilder">
+  <![CDATA[
+    <p>As a self-directed investor, you must carefully consider the appropriateness of the proposed investments in light of your own personal financial circumstances, including cash flow needs, unusual tax implications or other complex or subjective concerns. Additionally, market conditions and your personal financial situation may change—perhaps suddenly or gradually over time. It is up to you to reassess any investment program, including PortfolioBuilder, on a regular basis to ensure that it remains consistent with your current financial resources and investing objectives. Monitoring and adjusting your investments to suit your changes are your responsibility. If you choose to rebalance your portfolio to address those changes, you are responsible for any costs associated with the transactions.</p>
+    <p>Diversification does not guarantee a profit or protect against market losses.</p>
+    <p><em>You should carefully consider a fund's investment objectives, risks, charges and expenses before investing. For a prospectus containing this and other important information, please visit the fund's detailed quote page, or contact a <a href="https://www.capitaloneinvesting.com/main/contact-us.aspx" target="_blank" aria-label="Click for Capital One Investing Customer Service Associate" title="Capital One Investing Customer Service Associate">Capital One Investing Customer Service Associate</a>. Please read the prospectus carefully before investing.</em></p>
+  ]]>
+</disclaimer>
+<disclaimer name="QuickFundsSelector" title="SB services features - Quick Funds Selector">
+  <![CDATA[
+    <p>As a self-directed investor, you control your investments. This tool provides Target Date Funds to consider. Carefully consider your unique financial situation and goals when selecting a Target Date Fund.</p>
+    <p>Funds listed are not intended to be investment advice, nor a recommendation to buy, sell or exchange any particular security. Capital One Investing makes no representation regarding the likelihood or probability that any investment will in fact achieve a particular investment goal. Capital One Investing is unable to predict or forecast market fluctuations or other uncertainties that may affect the value of any investment. Target Date Funds listed in this tool represents the universe of all Target Date Funds offered by Capital One Investing as of 02/10/2015. These funds will be reviewed in the first quarter of each calendar year to ensure the funds offered in this tool represent all Target Date Funds offered by Capital One Investing. If any funds are removed in the meantime, reasonable efforts will be taken to update the list of funds. Investors can also access a more comprehensive list of Target Date Funds using the Capital One Investing Investment Screener tool.</p>
+    <p><strong>Target Date Funds:</strong> These funds are investments in securities that attempt to rebalance asset allocations according to a particular time horizon generally becoming more conservative as the fund's target year is reached. Investment in these types of funds does not guarantee against losses or that a particular return at the target date will be achieved as factors such as investment amount or savings rate are not considered. Individual risk tolerance is not considered and the underlying assets such as mutual funds and exchange-traded funds may carry additional risks due to the assets held in those underlying portfolios. These types of funds are not suitable for all investors. You should carefully review the fund's prospectus for specific fund risks, objectives, and expenses before investing. Due to the active management and underlying investments, these funds may carry more ongoing costs than other assets.</p>
+  ]]>
+</disclaimer>
+
+<disclaimer name="Research" title="SB services features - Research">
+  <![CDATA[
+    <p><strong>Where does this research content come from?</strong> See the <a href="http://content.capitaloneinvesting.com/MgdCon/Core/Research/disclaimers.htm" target="_blank" aria-label="Click for Research Content Disclosures" title="Research Content Disclosures">Research Content Disclosures</a>. <strong>Delayed quotes:</strong> NYSE, NASDAQ and Amex have at least 15 minutes' delay. BATS Exchange real-time quotes may be delayed up to 10 minutes compared to a composite real-time quote. BATS quotes include market information (from outside sources) that's delayed at least 15 minutes.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="3PVideo" title="3rd Party Video">
+  <![CDATA[
+    <p>Any opinions, statements and viewpoints are not endorsed by Capital One Investing, LLC. References to specific securities or investing strategies are considered educational in nature and do not constitute recommendations or advice. The content should not be construed as an offer or a solicitation of an offer to buy, sell or hold securities by Capital One Investing. Video content Copyright &copy; 2012 Dow Jones & Company Inc.</p>
+  ]]>
+</disclaimer>
+
+<disclaimer name="fundamentalData" title="SB services features - Fundamental data">
+  <![CDATA[
+    <p>Fundamental data, broker rating, EPS estimates and surprises are provided by Zacks Investment Research: <a href="http://www.zacks.com/" target="_blank" aria-label="Click for zacks.com" title="zacks.com">www.zacks.com</a></p>
+  ]]>
+</disclaimer>
+<disclaimer name="MOD" title="SB services features - Markit On Demand">
+  <![CDATA[
+    <p>Markit On Demand, Inc., (MOD) makes no warranty, expressed or implied, as to its accuracy, completeness or timeliness, or as to the results obtained through the Consensus. In no event shall MOD be liable for any indirect, special or consequential damages in connection with any use of the Consensus product. MOD makes no recommendation regarding any security nor any offer or solicitation to buy or sell securities. Reproduction of any portion of the Consensus or the information or data contained in any form is prohibited except with the prior written permission of MOD or under separate license.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="3rdPartyProductSpecific" title="3rd Party Product Specific Disclosures">
+  <![CDATA[
+    <p>Capital One does not provide, endorse or guarantee any third party product, service, information or recommendation listed above. The third parties listed are not affiliated with Capital One and are solely responsible for their products and services. All trademarks are the property of their respective owners.</p>
+  ]]>
+</disclaimer>
+
+<!-- RISKS (GENERAL) - Disclaimers -->
+<disclaimer name="marketRisk" title="Risk - Market Risk">
+  <![CDATA[
+    <p>Investments are subject to market risk, including possible loss of the principal amount invested.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="marketRiskTolerance" title="Risk - Market Risk - Risk Tolerance">
+  <![CDATA[
+    <p>Investments are subject to market risk, including possible loss of the principal amount invested. An investor should consider individual risk tolerance, time horizon and financial situation before making an investment.</p>
+  ]]>
+</disclaimer>
+
+<!-- AWARDS - Disclaimers -->
+<disclaimer name="corporateInsight14" title="Awards - Corporate Insight Award 2014">
+  <![CDATA[
+    <p>Capital One Investing has the #1 brokerage website for design and usability as ranked by Corporate Insight's January 2014 Brokerage Website Audit study of nine of the investment industry's well-known retail brokerages. This comprehensive benchmarking study graded sites on 300+ attributes, using a 4-point scale of predefined criteria. In addition, the study used investor opinions (gathered in over 1,500 surveys in December 2013) about the importance of site features to weigh the grades for each attribute. Corporate Insight was engaged by Capital One Investing previously known as Capital One ShareBuilder) and compensated for preparation of the study and a report outlining the results and methodology used. The results of this study follow #1 rankings for brokerage website design and usability in similar studies completed in 2012 and 2013 by Corporate Insight.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="stevieAward" title="Awards - Stevie Award">
+  <![CDATA[
+    <p>Winner of three Stevie<sup>&reg;</sup> Awards from both the 2013 and 2014 American Business Awards (ABA): one of multiple recipients of a Bronze Stevie in 2013 and a Silver Stevie in 2014 for Customer Service Department of the Year - Financial Services and single recipient of a Gold Stevie for Customer Service Executive of the Year in 2014; and the single recipient of the Gold Stevie for Customer Service Team of the Year - Financial Services or Insurance in 2013 and 2014. One of over 3200 entrants across all categories in both 2013 and 2014 that submitted an essay detailing accomplishments since January 1, 2013, as well as a biography of the leader of the department or team being considered for an award. Winners were determined by two independent reviews conducted by ABA Stevie Awards staff approved volunteer judges in April and May of both 2013 and 2014. At least five judges participated in the first round and members of specialized committees judged the second round. First round judges assigned ratings to entrants in each category using a scale of 1-10. Entrants with scores of at least 7.0 were deemed Finalists, and were rated by the second round judges. The Finalist with the highest score in each category received the Gold Stevie. Finalists in each category with an average score of at least 8.0 received a Silver Stevie and all other Finalists in each category received a Bronze Stevie.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="stevieAward15" title="Awards - Stevie Award - 2015">
+  <![CDATA[
+    <p>Winner of seven Stevie<sup>&reg;</sup> Awards from the 2013, 2014 and 2015 American Business Awards (ABA): one of multiple recipients of a Bronze Stevie in 2013, a Silver Stevie in 2014 and another Bronze Stevie in 2015 for Customer Service Department of the Year - Financial Services; single recipient of a Gold Stevie for Customer Service Executive of the Year in both 2014 and 2015; single recipient of the Gold Stevie for Customer Service Team of the Year - Financial Services or Insurance in 2013 and 2014; and one of multiple recipients of a Silver Stevie for Customer Service Team of the Year&mdash;Transfer-In Team in 2015. One of over 3,300 entrants (all categories combined) across 2013, 2014 and 2015. Each entrant submitted an essay detailing accomplishments since January 1, 2014, as well as a biography of the leader of the department or team being considered for an award. Winners were determined by two independent reviews conducted by ABA Stevie Awards staff approved volunteer judges in April and May of 2013, 2014 and 2015. At least five judges participated in the first round and members of specialized committees judged the second round. First round judges assigned ratings to entrants in each category using a scale of 1-10. Entrants with scores of at least 7.0 were deemed Finalists, and were rated by the second round judges. The Finalist with the highest score in each category received the Gold Stevie. Finalists in each category with an average score of at least 8.0 received a Silver Stevie and all other Finalists in each category received a Bronze Stevie.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="401k" title="401k">
+  <![CDATA[
+    <p>ShareBuilder 401k and ShareBuilder Advisors are the marketing names for Capital One Advisors, LLC.</p>
+  ]]>
+</disclaimer>
+
+<!-- TAX DISCLOSURE - Disclaimers -->
+<disclaimer name="tax" title="Tax">
+  <![CDATA[
+    <p>This material is intended only as general information for your convenience, and should not in any way be construed as investment or tax advice by Capital One Investing. You should consult with your tax advisor regarding any specific tax strategies.</p>
+  ]]>
+</disclaimer>
+
+<!-- TESTIMONIALS (Customers) - Disclaimers -->
+<disclaimer name="testimonials" title="TESTIMONIALS (Customers)">
+  <![CDATA[
+    <p>While each customer story is a true experience of an actual Capital One Investing customer, this does not represent or imply that every consumer has had, or will have, a similar experience. Results can and do vary. Sharing these stories should not be considered investment or tax advice, or a guarantee of future performance or success.</p>
+  ]]>
+</disclaimer>
+
+<!-- TICKER SYMBOLS AND CHARTS - Disclaimers -->
+<disclaimer name="tickerSymbols" title="Ticker symbols, quotes or charts are for illustrative purposes">
+  <![CDATA[
+    <p>Ticker symbols, quotes and charts are for illustrative purposes only and should not be construed as recommendations or investment advice.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="illustrativeImages" title="Images are for illustrative purposes only">
+  <![CDATA[
+    <p>Images are for illustrative purposes only. Any displayed symbols, quotes and charts are not recommendations or advice.</p>
+  ]]>
+</disclaimer>
+
+<!-- GENERAL DISCLAIMER FOR USE WITH ARTICLES ON INVESTING -->
+<disclaimer name="investingArticle" title="Articles on investing disclaimer">
+  <![CDATA[
+    <p>This material is intended only as general information for your convenience, and should not in any way be construed as investment or tax advice by Capital One Investing. You should consult with your tax advisor regarding any specific tax strategies.</p>
+  ]]>
+</disclaimer>
+
+
+<!-- SWEEP OPTIONS: FDIC INSURED CASH OR THE MONEY MARKET FUND - Disclaimers -->
+<disclaimer name="APY" title="Annual Percentage Yield">
+  <![CDATA[
+    <p>Annual Percentage Yield (effective 05/01/2015). Rate may vary.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="calculatedCashSweep" title="How are the Cash Sweep Programs calculated?">
+  <![CDATA[
+    <p><strong>How are the Cash Sweep Programs calculated?</strong></p>
+    <p>The Money Market Fund pays dividends, not interest, and any accumulated dividends post to your account once a month. If less than $0.000005 of dividends is accrued in a given day, the amount will be rounded down to $0 and, therefore, you will not accrue dividends for that day.</p>
+    <p>Please make sure to view the Money Market Fund's <a href="http://prospectus-express.newriver.com/summary.asp?cid=sbuilderpre&fid=DGCXX" target="_blank" aria-label="Click to view the prospectus" title="view the prospectus">prospectus</a> for additional details. The Money Market Fund publishes a 7-day yield. This takes into account the interest paid&mdash;less expenses for the fund for the last 7 days. The published yield is not compounded. Performance Data represents past performance and does not guarantee future results. The fund's most recent 7-day yield may be lower or higher than the figure quoted above. Yield and return may vary.</p>
+    <p>The FDIC Insured Cash Balance pays interest and it is accrued daily and posted monthly. If less than $0.000005 of interest is accrued in a given day, the amount will be rounded down to $0 and, therefore, you will not accrue interest for that day.</p>
+    <p>The FDIC Cash Balance has a rate of return calculated as an APY or Annual Percentage Yield. It is the annualized rate of return that has taken compounding into effect. The rate of the APY (effective 05/01/2015) may vary.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="insuredCashSweep" title="How are the Cash Sweep Programs insured?">
+  <![CDATA[
+    <p><strong>How are the Cash Sweep Programs insured?</strong> The FDIC Insured Cash Balance is a deposit in a bank and the value is eligible for FDIC insurance. The FDIC Insured Cash Balance will be eligible for FDIC insurance up to $250,000 (including interest and principal) per depositor for all aggregated accounts. The Federal Deposit Insurance Corporation (FDIC) is an independent agency of the United States government that protects the funds depositors place in banks and savings associations. FDIC insurance is backed by the full faith and credit of the United States government.</p>
+    <p>Investment in the Money Market Fund is not a deposit in a bank, and is not insured or guaranteed by the FDIC. Investment in the Money Market Fund is covered by the Securities Investor Protection Corporation (SIPC), which protects customers of member firms when their stocks, money or other securities are stolen or put into jeopardy by the brokerage. Capital One Investing, LLC, is a member of SIPC. SIPC provides a maximum claim of $500,000 for each customer of which $250,000 is allocated as a maximum claim for cash. For more information, <a href="http://www.sipc.org/" target="_blank" aria-label="Click to access sipc.org" title="www.sipc.org">www.sipc.org</a>.</p>
+  ]]>
+</disclaimer>
+
+<!-- FDIC INSURED CASH BALANCE - Disclaimers -->
+<disclaimer name="importantFDIC" title="FDIC Insured Cash Balance">
+  <![CDATA[
+    <p><strong>Important information about the FDIC Insured Cash Balance:</strong> <br />The FDIC Insured Cash Balance is held at Capital One, N.A., Member FDIC. <strong>The FDIC Insured Cash Balance will be eligible for FDIC insurance up to $250,000 (including interest and principal) per depositor for all aggregated deposits held at Capital One, N.A.</strong></p>
+  ]]>
+</disclaimer>
+<disclaimer name="moneymarketfundMinimum" title="Money market fund - Minimum disclosure">
+  <![CDATA[
+    <p><strong>Minimum disclosure:</strong></p>
+    <p>You should carefully consider a fund's investment objectives, risks, charges and expenses before investing. For a prospectus containing this and other important information, please visit the fund's detailed quote page, or contact a <a href="https://www.capitaloneinvesting.com/main/contact-us.aspx" target="_blank" aria-label="Click for Capital One Investing Customer Service Associate" title="Capital One Investing Customer Service Associate">Capital One Investing Customer Service Associate</a>. Please read the prospectus carefully before investing.</p>
+    <p>An investment in the fund is not insured or guaranteed by the Federal Deposit Insurance Corporation (FDIC) or any other government agency.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="moneymarketfundReturn" title="Money market fund - Return disclosure">
+  <![CDATA[
+    <p><strong>Important Money Market Fund Information:</strong></p>
+    <p>Performance data represents past performance, and does not guarantee future results.</p>
+    <p>The fund's most recent 7-day yield may be lower or higher than the figure quoted above. Yield and return will vary.</p>
+    <p>Performance data and other information is available by calling 1-800-888-9723, Monday–Friday, 8 AM to 5 PM (ET).</p>
+    <p>An investment in the fund is not a deposit in a bank, and is not insured or guaranteed by the Federal Deposit Insurance Corporation (FDIC) or any other government agency. Although the fund seeks to preserve the value of your investment at $1.00 per share, it is possible to lose money by investing in the fund.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="noadvice" title="Advisors will not provide advice">
+  <![CDATA[
+    <p>Advisors will not provide advice related to your online self-directed account(s).</p>
+  ]]>
+</disclaimer>
+<disclaimer name="ipoProspectus" title="IPO Prospectuses">
+  <![CDATA[
+    <p><strong>IPO Prospectuses:</strong> Publication of a prospectus is not a recommendation by Capital One Investing, LLC, that any particular investor should purchase the securities described or that the securities are a suitable investment for any particular investor.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="ipoInfo" title="Upcoming IPO Information">
+  <![CDATA[
+    <p><strong>Upcoming IPO Information:</strong> Information on upcoming IPOs is provided by a third party. Upcoming IPOs will not necessarily be available for potential participation at Capital One Investing, LLC. For a list of new issues, if any, now being offered through Capital One Investing see Current Offerings.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="ipoInitial" title="Initial Public Offering (IPO)">
+  <![CDATA[
+    <p><strong>Initial Public Offering (IPO):</strong> IPO shares have no trading history, are speculative and are not suitable for all investors. Only you can determine if investing in an IPO is within your tolerance for risk and appropriate for your investment goals. Before investing in an IPO, you should read the prospectus carefully.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="RetireMyWay" title="Retire My Way">
+  <![CDATA[
+    <p>Retire MyWay<sup>&reg;</sup> is provided for informational purposes only. Its primary purpose is to provide an estimate of the income that may be available upon your retirement, assuming an investment amount provided by you, and return based on the assumptions described in the tool. The results are hypothetical in nature; they do not reflect actual investment results and are not guaranteed. No representation is made regarding the likelihood or probability that any proposed investing plan will in fact achieve a particular investment goal.</p>
+    <p>As circumstances change over time, you should review your investments on a regular basis to ensure that they are consistent with your financial resources and objectives.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="360WebGlobal" title="360 Website Global">
+  <![CDATA[
+    <p>Banking, Credit Card, Auto Finance, and Home Loan products and services are offered by the Capital One family of companies, including Capital One Bank (USA), N.A., and Capital One, N.A., NMLS ID 453156, Members <a href="http://www.fdic.gov/" target="_blank" aria-label="Click for FDIC" title="Click for FDIC">FDIC</a>.</p>
+    <p>All entities are separate but affiliated legal entities of Capital One Financial Corporation, each is responsible for its own products and services.</p>
+    <p><strong>Securities and services are: Not FDIC insured &middot; Not bank guaranteed &middot; May lose value &middot; Not a deposit &middot; Not insured by any federal government agency</strong></p>
+    <p><strong>&copy; 2015</strong> Capital One. All rights reserved.</p>
+  ]]>
+</disclaimer>
+
+<disclaimer name="COFIFFSurvey" title="Capital One Financial Freedom Survey">
+  <![CDATA[
+    <p>Source: Capital One Investing Financial Freedom Survey.</p>
+  ]]>
+</disclaimer>
+
+<disclaimer name="CollegeSurveyRoomBoard" title="College Tuition, Fees over time">
+  <![CDATA[
+    <p>Source: <a href="https://trends.collegeboard.org/college-pricing/figures-tables/tuition-and-fees-and-room-and-board-over-time-1976-77_2016-17-selected-years" target="_blank">The College Board’s Tuition and Fees and Room and Board over Time</a>.</p>
+  ]]>
+</disclaimer>
+
+<disclaimer name="SubCapOneFinCorp" title="Subsidiaries of Capital One Fincancial Corporation">
+  <![CDATA[
+    <p>All are subsidiaries of Capital One Financial Corporation.</p>
+  ]]>
+</disclaimer>
+
+
+<!-- MANDATORY - Base Disclaimers -->
+<disclaimer name="brokerCheck" title="Broker Check">
+  <![CDATA[
+  <p class="brokerCheckElement"><img src="https://content.capitaloneinvesting.com/mgdcon/jump/app/disclaiminator/media/finraLogo.png" alt="BrokerCheck" class="brokerCheck" style="vertical-align: middle; width: 40px;" /><a href="http://brokercheck.finra.org/Firm/Summary/45744" class="link" target="_blank">Check the background of Capital One Investing on FINRA's BrokerCheck.</a></p>
+  ]]>
+</disclaimer>
+<disclaimer name="baseDisclaimer_1" title="Base Disclaimer – Broker Dealer">
+  <![CDATA[
+    <p>Investment products are offered by Capital One Investing, LLC, a registered broker-dealer and Member <a href="http://www.finra.org/" target="_blank" aria-label="Click for FINRA" title="Click for FINRA">FINRA</a>/<a href="http://www.sipc.org/" target="_blank" aria-label="Click for SIPC" title="Click for SIPC">SIPC</a>. Investment advisory services are provided by Capital One Advisors, LLC, an SEC-registered investment advisor. Insurance products are offered through Capital One Agency, LLC.</p>
+    <p>All are subsidiaries of Capital One Financial Corporation.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="baseDisclaimer_2" title="Base Disclaimer – Securities">
+  <![CDATA[
+    <p><strong>Securities and services are: Not FDIC insured &middot; Not bank guaranteed &middot; May lose value &middot; Not a deposit &middot; Not insured by any federal government agency</strong></p>
+  ]]>
+</disclaimer>
+<disclaimer name="baseDisclaimer_3" title="Base Disclaimer – Copyright">
+  <![CDATA[
+    <p><strong>&copy; <span class='copyYear'>#_decimal:copyYear_#</span> Capital One.</strong> Capital One and ShareBuilder are federally registered service marks. All third-party trademarks are the property of their respective owners.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="copyrightShort" title="Copyright Short Version">
+  <![CDATA[
+    <p><strong>&copy; <span class='copyYear'>#_decimal:copyYear_#</span> Capital One.</strong> Capital One and ShareBuilder are federally registered service marks.</p>
+  ]]>
+</disclaimer>
+
+<!-- BLANK TEST -->
+<disclaimer name="blank" title="Blank"><![CDATA[<p><span class='blank'>#_string:blank_#</span></p>]]></disclaimer>
+
+<!-- //////////////////////////////
+   EMAIL DISCLAIMERS ONLY
+/////////////////////////////// -->
+
+<!-- Email Full Service Customers  -->
+<disclaimer name="emaildfFSC" title="Email Disclosure for Full Service Customers" date="07/10/2017">
+  <![CDATA[
+  <p><a href="https://www.capitaloneinvesting.com/main/privacy-policy.aspx">Privacy Policy</a> | <a href="https://www.capitaloneinvesting.com/main/secure-email-communications.aspx">Email Security</a></p>
+  <p>This email advertisement was sent to [!--$email_addr$--]. You received this email as a Capital One customer.</p>
+  <p>Capital One Investing and its service providers are committed to protecting your privacy and ask you not to send sensitive account information through email. If you are not a Capital One Investing customer, or believe you received this message in error, please notify us at <a href="mailto:customerservice@capitaloneinvesting.com"><strong>customerservice@capitaloneinvesting.com</strong></a>. Thanks.</p>
+  <p>Investment products are offered by Capital One Investing, LLC, a registered broker-dealer and Member <a href="http://www.finra.org/index.htm">FINRA</a>/<a href="http://www.sipc.org">SIPC</a>. Investment advisory services are provided by Capital One Advisors, LLC, an SEC-registered investment advisor. Insurance products are offered through Capital One Agency, LLC.</p>
+  <p>All are subsidiaries of Capital One Financial Corporation.</p>
+  <p><strong>&copy; 2017 Capital One. </strong></a>Capital One and ShareBuilder are federally registered service marks. All third-party trademarks are the property of their respective owners.</p>
+  <p>Capital One Investing, LLC | 301 W. 11th St. | Wilmington, DE 19801 | <a href="http://pages.email.capitaloneinvesting.com/page.aspx?QS=773ed3059447707d9f76dacca0f44ab1b8da5ded6c925e8c34b102997b4b8c97&s=28835703&j=6906945&mid=1051934&lid=445&jb=1&ju="><strong>Unsubscribe</strong></a></p>
+  ]]>
+</disclaimer>
+
+<!-- 14 -->
+<!-- Email FIDS  -->
+<disclaimer name="emailjnonirairacptofneafids" title="Email - Joint Offer - non-IRA and IRA Cash Promotion–Tiered Offer for New &amp; Existing Accounts Based on FIDS 2014 Customer Email">
+  <![CDATA[
+    <p>Capital One Investing:</p>
+  <ul>
+    <li>To receive your bonus you must open a new or fund an existing online IRA, Individual, Joint or Custodial account using promo code [CODE] for new accounts, or [CODE] for existing accounts by the promotion expiration date: [MM/DD/YYYY]. You must deposit, transfer or roll over assets to that account. Assets must post to that account within [XX] days of entering the code. Your net qualifying assets must be at least $[DOLLARAMT] to be eligible for a $[DOLLARAMT] bonus; $[DOLLARAMT] for a $[DOLLARAMT] bonus; $[DOLLARAMT] for a $[DOLLARAMT] bonus; or $[DOLLARAMT] for a $[DOLLARAMT] bonus. Qualified assets must remain in the account (minus any losses related to trading or market volatility) for [YY] months following the [XX]-day period. Limit one bonus per customer or custodial beneficiary. <a href="http://www.capitaloneinvesting.com/affiliates/?PC=SB&SID=600053917006971&MGDURL=x360%2Fall%2FFIDS%2F2014%2FMAIN%2Findex%2Ehtm%3Fxcode%3dSBEC%23FACTS&cmpid=SB_E_FIDS14_CW1" target="_blank" aria-label="Read important details and limitations of the bonus" title="Read important details and limitations of the bonus">Read important details and limitations of the bonus</a>.</li>
+    <li><strong>Any taxes related to Capital One Investing offers are your responsibility. The bonus is a cash award and will not be reported to the IRS as an IRA contribution. You should consult your tax or legal advisor about the guidelines on IRS contribution limits for IRAs and the appropriate tax treatment for this award.</strong></li>
+  </ul>
+  ]]>
+</disclaimer>
+
+<!-- 15 -->
+<!-- Email -->
+<disclaimer name="emailjnonirairacptofnea" title="Email - Joint Offer - non-IRA and IRA Cash Promotion–Tiered offer for New &amp; Existing Accounts Based on FIDS 2014 Prospect Email ">
+  <![CDATA[
+    <p class='disclaimer-title'><strong>HOW THE BONUS WORKS</strong></p>
+  <p>You have two steps to qualify for your cash bonus. First, open a new or fund an existing online Individual Retirement Account (IRA), Individual, Joint or Custodial account using promo code [CODE] for new accounts, or [CODE] for existing accounts by the promotion expiration date: [MM/DD/YYYY]. You must have a U.S. Tax I.D. (Social Security number) to open a Capital One Investing, LLC, account. Second, make a net deposit, transfer, and/or rollover that posts to your account within [XX] days after entering the promo code. Your net qualifying assets posted during that [XX]-day period must be at least $[DOLLARAMT] to be eligible for a $[DOLLARAMT] bonus, $[DOLLARAMT] for a $[DOLLARAMT] bonus, $[DOLLARAMT] for a $[DOLLARAMT] bonus, $[DOLLARAMT] for a $[DOLLARAMT] bonus, or $[DOLLARAMT] for a $[DOLLARAMT] bonus. If your net qualifying assets are within $100 of a higher bonus level, you will be credited at that level so you receive a larger bonus. Your net qualifying assets are the total amounts of your deposits and transfers, minus any withdrawals. (Note: the qualifying asset amount isn't affected by any change in value for your securities after they were deposited.) Transfers from an existing online Capital One Investing account, or from a Capital One 360® IRA to an online Capital One Investing IRA, do not qualify. Promotion is non-transferable, not valid for ESAs, and not valid with any other promotion. Limit one bonus per customer or custodial beneficiary.</p>
+  <p class='disclaimer-title'><strong>WHEN YOU GET YOUR BONUS</strong></p>
+  <p>Capital One Investing will add the bonus to your account within [5–7 business days or 4–6 weeks] following the [XX]-day period. The bonus is not available for withdrawal for [XX] days after it is awarded to your account. Qualifying assets must remain in the account (minus any losses related to trading or market volatility) for at least [YY] months following the [XX]-day period or your bonus may be reclaimed. Bonus may be refused or recovered if it is determined that you violated Capital One Investing's <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx" target="_blank" aria-label="Click for Capital One Investing's Account Agreement" title="Capital One Investing's Account Agreement">Account Agreement</a>.</p>
+  <p class='disclaimer-title'><strong>TAXES & YOUR BONUS</strong></p>
+  <p><strong>Any taxes related to Capital One Investing offers are your responsibility. The bonus is a cash award and will not be reported to the IRS as an IRA contribution. You should consult your tax or legal advisor about the guidelines on IRS contribution limits for IRAs and the appropriate tax treatment for this award.</strong></p>
+  ]]>
+</disclaimer>
+
+<!-- PRIVACY/CAN SPAM EMAIL DISCLOSURES -->
+
+<!-- ADVERTISEMENT -->
+
+<disclaimer name="emaildffsc" title="Email Disclosure for Full Service Customers">
+  <![CDATA[
+  <p><a href="https://www.capitaloneinvesting.com/main/privacy-policy.aspx">Privacy Policy</a> | <a href="https://www.capitaloneinvesting.com/main/secure-email-communications.aspx">Email Security</a></p>
+  <p>This email advertisement was sent to [!--$email_addr$--]. You received this email as a Capital One customer.</p>
+  <p>Capital One Investing and its service providers are committed to protecting your privacy and ask you not to send sensitive account information through email. If you are not a Capital One Investing customer, or believe you received this message in error, please notify us at <a href="mailto:customerservice@capitaloneinvesting.com"><strong>customerservice@capitaloneinvesting.com</strong></a>.</p>
+  <p>Investment products are offered by Capital One Investing, LLC, a registered broker-dealer and Member <a href="http://www.finra.org/index.htm">FINRA</a>/<a href="http://www.sipc.org">SIPC</a>. Investment advisory services are provided by Capital One Advisors, LLC, an SEC-registered investment advisor. Insurance products are offered through Capital One Agency, LLC.</p>
+  <p>All are subsidiaries of Capital One Financial Corporation</p>
+  <p><strong>&copy; 2017 Capital One.</strong> Capital One and ShareBuilder are federally registered service marks. All third-party trademarks are the property of their respective owners.</p>
+
+  <p>Capital One Investing, LLC | 301 W. 11th St. | Wilmington, DE 19801 | <a href="http://pages.email.capitaloneinvesting.com/page.aspx?QS=773ed3059447707d9f76dacca0f44ab1b8da5ded6c925e8c34b102997b4b8c97&s=28835703&j=6906945&mid=1051934&lid=445&jb=1&ju="><strong>Unsubscribe</strong></a></p>
+  ]]>
+</disclaimer>
+
+<!-- 95 - Advertisement for Customers - Email - #64 -->
+<disclaimer name="emailadcustomers" title="Email - Advertisement for Customers">
+  <![CDATA[
+  <p><a href="https://www.capitaloneinvesting.com/main/privacy-policy.aspx">Privacy Policy</a> | <a href="https://www.capitaloneinvesting.com/main/secure-email-communications.aspx">Email Security</a></p>
+  <p>This email advertisement was sent to [!--$email_addr$--]. You received this email as a Capital One customer.</p>
+  <p>Capital One Investing and its service providers are committed to protecting your privacy and ask you not to send sensitive account information through email. If you are not a Capital One Investing customer, or believe you received this message in error, please notify us at <a href="mailto:customerservice@capitaloneinvesting.com"><strong>customerservice@capitaloneinvesting.com</strong></a>.</p>
+  <p>Investment products are offered by Capital One Investing, LLC, a registered broker-dealer and Member <a href="http://www.finra.org/index.htm">FINRA</a>/<a href="http://www.sipc.org">SIPC</a>. Investment advisory services are provided by Capital One Advisors, LLC, an SEC-registered investment advisor. Insurance products are offered through Capital One Agency, LLC.</p>
+  <p>All are subsidiaries of Capital One Financial Corporation</p>
+  <p><strong>&copy; 2017 Capital One.</strong> Capital One and ShareBuilder are federally registered service marks. All third-party trademarks are the property of their respective owners.</p>
+
+  <p>Capital One Investing, LLC | PO Box 259008 | Plano, TX 75025 | <a href="http://pages.email.capitaloneinvesting.com/page.aspx?QS=773ed3059447707d9f76dacca0f44ab1b8da5ded6c925e8c34b102997b4b8c97&s=28835703&j=6906945&mid=1051934&lid=445&jb=1&ju="><strong>Unsubscribe</strong></a></p>
+  ]]>
+</disclaimer>
+
+<!-- 97 - Advertisement for Prospects - Email - #65  -->
+<disclaimer name="emailadprospects" title="Email - Advertisement for X-Sell Prospects">
+  <![CDATA[
+  <p><a href="https://www.capitaloneinvesting.com/main/privacy-policy.aspx">Privacy Policy</a> | <a href="https://www.capitaloneinvesting.com/main/secure-email-communications.aspx">Email Security</a></p>
+  <p>This email advertisement was sent to [!--$email_addr$--].</p>
+  <p style="font-family:sans-serif; color:#333;font-size:14px;line-height:21px;font-weight:bold;">Investment and Insurance Products Are:</p>
+  <table cellpadding="0" cellspacing="0" style="border:1px solid; width: 100%">
+      <tr>
+          <td style="border:1px solid; font-weight:bold; text-align: center; padding:10px">Not FDIC Insured</td>
+          <td style="border:1px solid; font-weight:bold; text-align: center; padding:10px">Not Bank Guaranteed</td>
+          <td style="border:1px solid; font-weight:bold; text-align: center; padding:10px">May Lose Value</td>
+      </tr>
+      <tr>
+          <td style="border:1px solid; font-weight:bold; text-align: center; padding:10px">Not a Deposit</td>
+          <td style="border:1px solid; font-weight:bold; text-align: center; padding:10px" colspan="2">Not Insured By Any Federal Government Agency</td>
+      </tr>
+  </table>
+  <br>
+  <p>Banking and lending products and services are offered by Capital One, N.A. and Capital One Bank (USA), N.A, Members FDIC</p>
+  <p>Investment products are offered by Capital One Investing, LLC, a registered broker-dealer and Member FINRA/SIPC. Investment advisory services are provided by Capital One Advisors, LLC, an SEC-registered investment advisor. Insurance products are offered through Capital One Agency, LLC.</p>
+  <p>All are subsidiaries of Capital One Financial Corporation.</p>
+  <p>Capital One Investing and its service providers are committed to protecting your privacy and ask you not to send sensitive account information through email. If you believe you received this message in error, please notify us at <a href="mailto:customerservice@capitaloneinvesting.com"><strong>customerservice@capitaloneinvesting.com</strong></a>. Thanks.</p>
+  <p><strong>&copy; 2017 Capital One. </strong></a>Capital One and ShareBuilder are federally registered service marks. All third-party trademarks are the property of their respective owners.</p>
+  <p>Capital One Investing, LLC | PO Box 259008 | Plano, TX 75025 | <a href="http://pages.email.capitaloneinvesting.com/page.aspx?QS=773ed3059447707d9f76dacca0f44ab1b8da5ded6c925e8c34b102997b4b8c97&s=28835703&j=6906945&mid=1051934&lid=445&jb=1&ju="><strong>Unsubscribe</strong></a></p>
+  ]]>
+</disclaimer>
+
+
+<!-- TRANSACTIONAL Email - #66  -->
+
+<!-- 98 - Transactional for Customers - Email -->
+<disclaimer name="emailtranscustomers" title="Email - Transactional for Customers">
+  <![CDATA[
+  <p><a href="https://www.capitaloneinvesting.com/main/privacy-policy.aspx">Privacy Policy</a> | <a href="https://www.capitaloneinvesting.com/main/secure-email-communications.aspx">Email Security</a></p>
+  <p>This email was sent to [!--$email_addr$--] and contains information directly related to your account with us, other services to which you have subscribed and/or any application you may have submitted.</p>
+  <p>Capital One Investing and its service providers are committed to protecting your privacy and ask you not to send sensitive account information through email. If you are not a Capital One Investing customer, or believe you received this message in error, please notify us at <a href="mailto:customerservice@capitaloneinvesting.com"><strong>customerservice@capitaloneinvesting.com</strong></a>. Thanks.</p>
+  <p>Investment products are offered by Capital One Investing, LLC, a registered broker-dealer and Member <a href="http://www.finra.org/index.htm">FINRA</a>/<a href="http://www.sipc.org">SIPC</a>. Investment advisory services are provided by Capital One Advisors, LLC, an SEC-registered investment advisor. Insurance products are offered through Capital One Agency, LLC.</p>
+  <p>All are subsidiaries of Capital One Financial Corporation.</p>
+
+  <p><strong>&copy; 2017 Capital One. </strong></a>Capital One and ShareBuilder are federally registered service marks. All third-party trademarks are the property of their respective owners.</p>
+  <p>Capital One Investing, LLC | PO Box 259008 | Plano, TX 75025 | <a href="http://pages.email.capitaloneinvesting.com/page.aspx?QS=773ed3059447707d9f76dacca0f44ab1b8da5ded6c925e8c34b102997b4b8c97&s=28835703&j=6906945&mid=1051934&lid=445&jb=1&ju="><strong>Unsubscribe</strong></a></p>
+  ]]>
+</disclaimer>
+
+
+
+
+<!-- ADDITIONAL EMAIL DISCLOSURES -->
+
+<!-- 100 -->
+<disclaimer name="emailne" title="Email - Not Endorsing">
+  <![CDATA[
+  <p>Capital One Investing is providing this information as a service to you and is not recommending or endorsing any security.</p>
+  ]]>
+</disclaimer>
+
+<!-- 101 -->
+<disclaimer name="emailitm" title="Email - In-the-money">
+  <![CDATA[
+  <p>In-the-money: For a put option, this is typically when the strike price is greater than or equal to the market price. For options that include complex deliverables, this calculation will differ.</p>
+  ]]>
+</disclaimer>
+
+<!-- 102 -->
+<disclaimer name="emailguc" title="Email - Good Until Cancelled">
+  <![CDATA[
+  <p>For "Good Until Cancelled" orders that are not completely filled, your order will remain open until: 1) it is completely filled, 2) it expires [60 days after the order is placed], or 3) you cancel it online. Every day that a trade executes for an open limit order, Capital One Investing will generate a trade confirmation and charge you the applicable commission.</p>
+  ]]>
+</disclaimer>
+
+<!-- 103 -->
+<disclaimer name="emailtc" title="Email - Trade Credit">
+  <![CDATA[
+  <p>A trade credit covers base commission only. For complete information, go to the <a href="https://www.capitaloneinvesting.com/main/pricing-trading.aspx">pricing and rates</a> page.</p>
+  ]]>
+</disclaimer>
+
+<!-- 104 -->
+<disclaimer name="emailutr" title="Email - Understanding the Risks">
+  <![CDATA[
+  <p>No offer to buy the securities can be accepted, and no part of the purchase price can be received until the registration statement has become effective, and any such offer may be withdrawn or revoked, without obligation or commitment of any kind, at any time prior to notice of its acceptance given after the effective date.</p>
+  <p>This communication does not constitute an offer to sell or a solicitation of an offer to buy nor can there be any sale of these securities in any state in which such offer, solicitation or sale would be unlawful prior to registration or qualification under the securities laws of any such state. </p>
+  <p><strong>Understanding the Risks</strong></p>
+  <p><strong>There are risks associated with investing in a public offering, including that IPO shares have no trading history and are speculative, and as such, they may not be appropriate for every investor. As with all of your investments, you must make your own determination of whether an investment in this offering is consistent with your investment objectives and risk tolerance. Before investing in an IPO, you should read the registration statement and prospectus carefully.</strong></p>
+  <p><strong>Capital One Investing is not recommending or endorsing this offering by making the opportunity to participate available to its customers.</strong></p>
+  ]]>
+</disclaimer>
+
+<!-- 105 -->
+<disclaimer name="emailgpd" title="Email - General Promotions Disclosure">
+  <![CDATA[
+  <p><strong>General Promotions Disclosure:</strong> Everyone likes giveaways, but this is still a business. Capital One Investing reserves the right to limit the number of promotions and promotional awards for your account. Play by the rules (they're conveniently located on the source of each promotion). If you used promotions fraudulently, provided inaccurate or incomplete information in opening your account, or violated any terms of the <a href="https://www.capitaloneinvesting.com/main/online-investment-account-agreement.aspx">Account Agreement</a>, Capital One Investing can revoke your promotional award and close your accounts.</p>
+  ]]>
+</disclaimer>
+
+
+<!-- 106 -->
+<disclaimer name="emailgpdc" title="Email - General Promotions Disclosure Costco">
+  <![CDATA[
+  <p><strong>General Promotions Disclosure:</strong> Everyone likes giveaways, but this is still a business. Capital One Investing reserves the right to limit the number of promotions and promotional awards for your account. Play by the rules (they're conveniently located on the source of each promotion). If you used promotions fraudulently, provided inaccurate or incomplete information in opening your account, or violated any terms of Capital One Investing's <a href="https://www.capitaloneinvesting.com/costco/investment-account-agreement.aspx">Account Agreement</a>, your promotional award can be revoked and your accounts closed.</p>
+  ]]>
+</disclaimer>
+
+
+<!-- 107 -->
+<disclaimer name="emailcta" title="Email - Consult Tax Advisor">
+  <![CDATA[
+  <p>Before investing, you should consult your tax or legal advisor about the guidelines on IRS contribution limits.</p>
+  ]]>
+</disclaimer>
+
+
+<!-- 108 -->
+<disclaimer name="emailco" title="Email - Complex Options">
+  <![CDATA[
+  <p>For options that include complex deliverables, this may include a combination of shares of stock (not always 100 shares per contract) and/or cash.</p>
+  ]]>
+</disclaimer>
+
+
+<!-- 109 -->
+<disclaimer name="emailitmo" title="Email - In-the-money Options">
+  <![CDATA[
+  <p><strong>In-the-money:</strong> For a call option, this is typically when the strike price is less than or equal to the market price. For options that include complex deliverables, this calculation will differ.</p>
+  ]]>
+</disclaimer>
+
+
+<!-- 110 -->
+<disclaimer name="emaildiv" title="Email - Diversification">
+  <![CDATA[
+  <p>Diversification does not assure a profit or protect against loss.</p>
+  ]]>
+</disclaimer>
+
+<!-- 111 -->
+<disclaimer name="emaildca" title="Email - Dollar-cost Averaging">
+  <![CDATA[
+  <p>Dollar-cost averaging won't guarantee profit or protect against loss. Actual experience will vary with stock selection and changing market conditions. Investors should consider their financial ability to continue investing in periods of declining markets.</p>
+  ]]>
+</disclaimer>
+
+<!-- 112 -->
+<disclaimer name="emailmar" title="Email - Margin">
+  <![CDATA[
+  <p>Margin trading involves risk and is not suitable for all investors. Before trading securities on margin, you should carefully read the Capital One Investing <a href="https://www.capitaloneinvesting.com/main/online-margin-trading-account-agreement.aspx">Margin Account Agreement</a>.</p>
+  ]]>
+</disclaimer>
+<disclaimer name="optout" title="Email - Opt Out">
+  <![CDATA[
+    <p><strong>This email is an advertisement with a promotional offer. You received this email because you expressed interest in online investing during a conversation with a Capital One Investing advisor. If you prefer not to receive promotional emails or advertisements from Capital One, you can <a href="https://preferences.capitalone.com/SSP/preferences/">opt out</a>.</strong></p>
+  ]]>
+</disclaimer>
+</root>

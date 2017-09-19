@@ -1,0 +1,12 @@
+<div style="position:absolute;z-index:-1000;height:0;width:0">
+    <script language="javascript" src="//content.capitaloneinvesting.com/mgdcon/common/omniture/s_code.js" defer async></script>
+    <script language="javascript" type="text/javascript">
+
+        s.pageName="";
+        s.channel="sb:mgdcon";
+        s.prop14="604";
+        s.prop15="sb:Jump Page";
+        var s_code = s.t(); if (s_code) document.write(s_code);
+
+    </script>
+</div>

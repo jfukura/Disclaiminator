@@ -1,0 +1,35 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<title>Project Disclosures</title>
+<!--[if gte mso 9]><xml>
+ <o:CustomDocumentProperties>
+  <o:Document_x0020_Classification_x0020_Level dt:dt="string">Confidential</o:Document_x0020_Classification_x0020_Level>
+ </o:CustomDocumentProperties>
+</xml><![endif]-->
+
+</head>
+
+<body lang=EN-US style='tab-interval:.5in'>
+
+<div class=WordSection1>
+
+<h1>{{projectName}}</h1>
+<h2>{{owner}}</h2>
+
+({{date}})
+
+{{content}}
+
+</body>
+
+</html>

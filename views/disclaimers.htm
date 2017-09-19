@@ -1,0 +1,53 @@
+        <div class="col-sm-4 col-md-3">
+            <div class="filter">
+                <span class="filter-text-wrap">
+                    <input type="text" id="filter-text" class="js-filter-text filter-text" placeholder="Filter by keyword" />
+                    <button class="filter-text-clear js-filter-clear">&times;</button>
+                </span>
+
+                <select name="filter-account" id="filter-account" class="js-filter-select filter-select">
+                    <option value="">Account Type</option>
+                    <option value="joint">Joint account</option>
+                    <option value="custodial">Custodial account</option>
+                    <option value="ira">IRA</option>
+                    <option value="nonira">Non-IRA</option>
+                </select>
+                <select name="filter-qual" id="filter-qual" class="js-filter-select filter-select">
+                    <option value="">Qualification</option>
+                    <option value="new">New account</option>
+                    <option value="trade">Trade</option>
+                    <option value="fund">Fund account</option>
+                </select>
+                <select name="filter-bonus" id="filter-bonus" class="js-filter-select filter-select">
+                    <option value="">Bonus Type</option>
+                    <option value="cash">Cash bonus</option>
+                    <option value="trade">Trade bonus</option>
+                </select>
+                <select name="filter-bonus" id="filter-bonus" class="js-filter-select filter-select">
+                    <option value="">Offer Type</option>
+                    <option value="yes">Tiered offer</option>
+                    <option value="no">Not tiered offer</option>
+                </select>
+
+                <button class="btn btn-secondary mod-xs js-filter-clear-all filter-clear-all mod-ghost">Clear all filters</button>
+                <div class="clear"></div>
+            </div>
+            <ul id="disc-source" class="drop-bucket mod-pool"></ul>
+
+            <div class="controls">
+
+                <div class="switch-wrap">
+                    <div class="switch-label">Titles Only</div>
+                    <div class="switch">
+                        <input class="cmn-toggle cmn-toggle-round js-input" type="checkbox" id="disclaimerExpandView" name="disclaimerExpandView" checked>
+                        <label for="disclaimerExpandView"></label>
+                    </div>
+                    <div class="switch-label mod-right">Expanded</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8 col-md-9">
+            <div class="drop-bucket mod-prepend"></div>
+            <ul id="disc-selected" class="drop-bucket mod-target disclaimers"></ul>
+            <div class="previewContainer"></div>
+        </div>

@@ -1,0 +1,16 @@
+.disc-pool-item {
+  list-style-type: none !important; }
+  .disc-pool-item-title {
+    background: #E8E4E7;
+    font: normal 1.125rem/1.4 "OptimistLight", sans-serif;
+    padding: 20px 10px 20px 20px;
+    margin-bottom: 20px; }
+  .disc-pool-item-content {
+    display: block;
+    padding: 10px 20px 30px 20px !important; }
+  .disc-pool-item.is-collapsed .disclaimerList-item-body {
+    display: none; }
+
+.btn-expcoll {
+  float: right;
+  margin-bottom: 20px; }

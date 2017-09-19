@@ -1,0 +1,231 @@
+// Project Name:    {{inputProjectName}}
+// Owner:           {{inputProjectManager}}
+// Tracking Code:   {{inputTracking}}
+// Promo Code:      {{inputPromo}}
+// Fund Code:       {{inputPromoFund}}
+// Created On:      {{createdDate}}
+// Modified On:     {{modifiedDate}}
+
+if (location.protocol != 'https:' && window.location.host.indexOf('localhost') < 0) {
+    location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+}
+
+function Offer() {
+    this.local          = false;
+    this.expiry         = new Date('{{expiryDate}}');
+    this.redirect       = new Date('01/31/2920'); // Hilariously hard-coded for now...
+    this.promoCode      = '{{inputPromo}}';
+    this.promoCodeFund  = '{{inputPromoFund}}'
+    this.disclaimers    = {{Disclaimers}};
+
+    if (window.location.host.indexOf('localhost') >= 0) {
+        this.local      = true;
+
+    } else if (window.location.host.indexOf('github') >= 0) {
+        this.local      = 'github'
+    }
+
+    this.links          = {
+        'setupLink': 'https://www.capitaloneinvesting.com/main/accountsetup/default.aspx',
+        'signInLink': 'https://www.capitaloneinvesting.com/main/Login.aspx',
+        'cofiLink': 'http://www.capitaloneinvesting.com'
+    };
+
+    var x = getUrlVars();
+
+    if (x.xcode !== undefined) {
+        this.xcode = '*' + x.xcode.toUpperCase();
+
+        this.promoCode += this.xcode;
+        this.promoCodeFund  += this.xcode;
+    }
+
+    var urlBase         = 'https://www.capitaloneinvesting.com/affiliates/',
+        urlMid          = '?PC={{PC}}&SID={{SID}}&SBPAGE=promotions%2Fdefault.aspx%3F',
+        urlMidFnd       = '?PC={{PC}}&SID={{SID}}&SBPAGE=account%2Fpromotions.aspx%3F',
+        urlProm         = 'promocode%3D' + this.promoCode.toLowerCase(),
+        urlProFnd       = 'promocode%3D' + this.promoCodeFund.toLowerCase(),
+        urlAcct         = '%26presel%3D{{account}}',
+        urlTrac         = '%26intcmp%3D10000006';
+
+    this.links['openAccnt'] = urlBase + urlMid + urlProm + urlAcct + urlTrac;
+    this.links['fundAccnt'] = urlBase + urlMidFnd + urlProFnd + urlAcct + urlTrac;
+    this.replace = {
+        'openAccnt': document.getElementsByClassName('openAccnt'),
+        'fundAccnt': document.getElementsByClassName('fundAccnt')
+    };
+
+    if (this.local === true) {
+        this.baseUrl    = 'http://localhost:8888/';
+    } else if (this.local === 'github') {
+        this.baseUrl    = 'https://github.kdc.capitalone.com/pages/cofi-brand-marketing/app-disclaiminator/';
+    } else {
+        this.baseUrl    = 'https://content.capitaloneinvesting.com/mgdcon/jump/app/disclaiminator/';
+    }
+
+
+    function getUrlVars (){
+        var vars = [], hash,
+            hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+
+        for(var i = 0; i < hashes.length; i++)
+        {
+            hash = hashes[i].split('=');
+            vars.push(hash[0]);
+            vars[hash[0]] = hash[1];
+        }
+        return vars;
+    }
+}
+
+Offer.prototype.setup = function () {
+    var off = this;
+    var headHTML = document.getElementsByTagName('head')[0].innerHTML;
+    var promoCodeEl = document.getElementsByClassName('promoCode');
+    var fundCodeEl = document.getElementsByClassName('fundCode');
+    var keys = Object.keys(off.replace);
+
+    if (typeof this.redirect.getMonth === 'function') {
+        // Check to see if the date has expired
+        var check = this.redirect;
+        var today = new Date();
+
+        if ( check.setDate(check.getDate() + 1) < today ) {
+            window.location.href = 'www.capitaloneinvesting.com';
+        }
+        console.log(this.redirect)
+    } else {
+        console.log('DISCLAIMINATOR :: No expiration provided')
+    }
+
+    if (typeof this.expiry.getMonth === 'function') {
+        // Check to see if the date has expired
+        var check = this.expiry;
+        var today = new Date();
+
+        if ( check.setDate(check.getDate() + 1) < today ) {
+            var btns = document.getElementsByClassName('openAccnt');
+
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].classList += ' disabled';
+                btns[i].title = "This promotion has expired";
+            }
+            console.log('DISCLAIMINATOR :: Campaign has expired')
+
+        }
+    } else {
+
+    }
+
+    headHTML += '<link rel="stylesheet" href="' + off.baseUrl + 'css/disclaimers.css" >';
+
+    document.getElementsByTagName('head')[0].innerHTML = headHTML;
+
+    for (var i = keys.length - 1; i >= 0; i--) {
+        var arr = off.replace[keys[i]];
+        Object.keys(off.links).forEach(function (linkKey) {
+            if (Object.keys(off.replace).indexOf(linkKey) >= 0) {
+                $(off.replace[linkKey]).each(function () {
+                    $(this).attr('href', off.links[linkKey]);
+                });
+            }
+        });
+    }
+
+    // TODO: This could be optimized further...
+    for (var i = promoCodeEl.length - 1; i >= 0; i--) {
+        promoCodeEl[i].innerHTML = off.promoCode;
+    }
+
+    for (var i = fundCodeEl.length - 1; i >= 0; i--) {
+        fundCodeEl[i].innerHTML = off.promoCodeFund;
+    }
+
+    off.requestDisclaimers();
+};
+Offer.prototype.requestDisclaimers = function () {
+    var off = this;
+    var xmlUrl = off.baseUrl + "xml/disclaimers.v2.xml";
+    var xhttp = new XMLHttpRequest();
+
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+
+            var root = this.responseXML.childNodes[0];
+            var disclaimerArray = root.getElementsByTagName('disclaimer');
+            var parent = document.getElementById('disclaimers');
+            var container = parent.getElementsByClassName('standard')[0];
+
+            for (var n = 0, l = off.disclaimers.length; n < l; n++) {
+                var currSel = off.disclaimers[n];
+
+                for (var i = disclaimerArray.length - 1; i >= 0; i--) {
+                    var XMLdisc = disclaimerArray[i];
+                    var XMLdiscName = XMLdisc.attributes.name.value;
+                    var currSelName = currSel.id;
+                    var html, vars, ann, footnote = '';
+
+                    if (XMLdiscName === currSelName && XMLdiscName !== 'blank') {
+                        var node = document.createElement('SPAN');
+                        $(node).attr('id', currSelName);
+
+                        html = XMLdisc.textContent;
+
+                        if (currSel.ann !== undefined) {
+                            ann = currSel.ann;
+                            footnote = '<sup class="footnote">' + ann + '</sup>';
+                        }
+
+                        if (currSel.variables !== undefined) {
+                            vars = currSel.variables;
+                            Object.keys(vars).forEach(function (key, i) {
+                                var regEx = new RegExp("<span class=\'" + key + "\'>(.*?)<\/span>", "gm");
+
+                                if (key.indexOf('promoCode') >= 0 && offer.xcode !== undefined) {
+                                    html = html.replace(regEx, "<span class='" + key + "'>" + vars[key] + offer.xcode + "<\/span>");
+                                } else {
+                                    html = html.replace(regEx, "<span class='" + key + "'>" + vars[key] + "<\/span>");
+                                }
+                            });
+                        }
+
+                        container.appendChild(node).insertAdjacentHTML('afterbegin', html);
+                        node.firstElementChild.insertAdjacentHTML('afterbegin', footnote);
+
+                    } else if (XMLdiscName === currSelName && XMLdiscName === 'blank'){
+                        var blankSet = currSel[currSelName];
+
+                        for (var b = 0, sl = blankSet.length; b < sl; b++) {
+                            var node = document.createElement('SPAN');
+
+                            html = currSel[currSelName][b][Object.keys(currSel[currSelName][b])].content;
+                            ann = currSel[currSelName][b][Object.keys(currSel[currSelName][b])].ann;
+
+                            if (ann !== undefined) {
+                                footnote = '<sup class="footnote">' + ann + '</sup>';
+                            }
+
+                            container.appendChild(node).insertAdjacentHTML('afterbegin', decodeURIComponent(html));
+                            node.insertAdjacentHTML('afterbegin', footnote);
+                        }
+                    }
+                }
+            }
+            for (var i = disclaimerArray.length - 1; i >= 0; i--) {
+                if (disclaimerArray[i].attributes.name.value === 'brokerCheck') {
+                    var parent = document.getElementById('disclaimers');
+                    var node = document.createElement('SPAN');
+
+                    node.innerHTML = disclaimerArray[i].textContent;
+
+                    parent.insertBefore(node, parent.childNodes[0]);
+                }
+            }
+        }
+    };
+    xhttp.open("GET", xmlUrl, true);
+    xhttp.send();
+};
+
+var offer = new Offer();
+offer.setup();

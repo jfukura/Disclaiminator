@@ -1,0 +1,25 @@
+@import "partials/_definitions.scss";
+
+.disc-pool {
+  &-item {
+    list-style-type: none !important;
+
+    &-title {
+      background: $color-grayLt;
+      font: normal 1.125rem/1.4 $font-pn--lite;
+      padding: 20px 10px 20px 20px;
+      margin-bottom: 20px;
+    }
+    &-content {
+      display: block;
+      padding: 10px 20px 30px 20px !important;
+    }
+    &.is-collapsed .disclaimerList-item-body {
+      display: none;
+    }
+  }
+}
+.btn-expcoll {
+  float: right;
+  margin-bottom: 20px;
+}

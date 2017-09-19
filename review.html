@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Disclaiminator</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/admin.css" />
+    <link rel="stylesheet" href="css/disclaimers.css" />
+
+    <style>
+        .searchedFor{
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+    <header class="masthead">
+        <div class="container">
+            <div class="row masthead-inner">
+                <div class="col-md-3 masthead-cell">
+                    <a class="brand-target" href="http://www.capitaloneinvesting.com" aria-label="Visit Capital One Investing" target="_blank">
+                        <img class="brand-target-logo" src="https://content.capitaloneinvesting.com/mgdcon/jump/assets/branding/CapitalOneInvesting-logo-01.svg" alt="Capital One Investing">
+                    </a>
+                </div>
+
+                <nav class="col-md-6 nav-wrap masthead-cell">
+                </nav>
+                <div class="col-md-3 masthead-cell mod-right">
+                    <button class="btn-save btn btn-secondary mod-lg mod-ghost js-form-save js-list-download">Download All <i class="icon-harddisk-1"></i></button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main id="main" class="container section section-top">
+        <div class="col-sm-4 col-md-3" style="position:relative;">
+            <div style="position:fixed; width:inherit">
+                <h1 class="title">Disclaiminator</h1>
+                <h2 class="subtitle">Disclaimer Review</h2>
+                <div class="filter">
+                    <span class="filter-text-wrap">
+                        <input type="text" id="filter-text" class="js-filter-text filter-text" placeholder="Filter by keyword" />
+                        <button class="filter-text-clear js-filter-clear">&times;</button>
+                    </span>
+
+                    <select name="filter-account" id="filter-account" class="js-filter-select filter-select">
+                        <option value="">Account Type</option>
+                        <option value="joint">Joint account</option>
+                        <option value="custodial">Custodial account</option>
+                        <option value="ira">IRA</option>
+                        <option value="nonira">Non-IRA</option>
+                    </select>
+                    <select name="filter-qual" id="filter-qual" class="js-filter-select filter-select">
+                        <option value="">Qualification</option>
+                        <option value="new">New account</option>
+                        <option value="trade">Trade</option>
+                        <option value="fund">Fund account</option>
+                    </select>
+                    <select name="filter-bonus" id="filter-bonus" class="js-filter-select filter-select">
+                        <option value="">Bonus Type</option>
+                        <option value="cash">Cash bonus</option>
+                        <option value="trade">Trade bonus</option>
+                    </select>
+                    <select name="filter-bonus" id="filter-bonus" class="js-filter-select filter-select">
+                        <option value="">Offer Type</option>
+                        <option value="yes">Tiered offer</option>
+                        <option value="no">Not tiered offer</option>
+                    </select>
+
+                    <button class="btn btn-secondary mod-xs js-filter-clear-all filter-clear-all mod-ghost">Clear all filters</button>
+                    <div class="clear"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="disclaimers" class="col-sm-8 col-md-9">
+            <!-- <button class="btn btn-primary mod-ghost mod-sm btn-expcoll" onclick="app.toggleExpand()">Expand/Collapse All</button> -->
+            <div class="clear"></div>
+            <div id="disc-source" class="disc-source"></div>
+        </div>
+    </main>
+
+<script src="js/app.js"></script>
+
+
+<!-- JIRA ISSUE COLLECTOR                                                    -->
+<script type="text/javascript" src="https://jira.kdc.capitalone.com/s/a75720e9016cce41b461928d3f5932da-T/en_US-kknhsx/64029/199/1.4.27/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=1bf4d738"></script>
+<!-- END JIRA ISSUE COLLECTOR                                                -->
+
+<style>
+    #disclaimers {
+        font-size: 1em !important;
+    }
+    #disclaimers p {
+        font-size: 1em !important;
+        line-height: 1.6 !important;
+    }
+</style>
+
+
+</body>
+</html>
